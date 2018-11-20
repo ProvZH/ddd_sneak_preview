@@ -12,7 +12,7 @@ Formaten:
 * Handmatige download of export, bijvoorbeeld [energiebesparingspotentie onder koopwoningen](https://www.cbs.nl/-/media/_excel/2017/26/energiepotentiekaarten_publicatie2.xlsx)
 
 Raadpleeg deze bronnen voor meer informatie over de OData interface:
-* [Handleiding CBS Open Data Services]
+* [Handleiding CBS Open Data Services](https://www.cbs.nl/-/media/statline/documenten/handleiding-cbs-opendata-services.pdf?la=en-gb)
 
 Voor het inlezen van CBS-gegevens in R is het [`cbsodataR`](https://cran.r-project.org/web/packages/cbsodataR/) package ontwikkeld.
 
@@ -26,4 +26,5 @@ In principe worden gegevens beschikbaar gesteld onder een [CC-BY-SA 4.0]((https:
 
 Issues:
 * De gegevens die via OData beschikbaar worden gesteld, bevatten geen geometrie. Voor een ruimtelijke analyse of visualisatie op de kaart is wel geometrie nodig.
+* De gegevens die via OData beschikbaar worden gesteld, zijn in een (bijna) [tidy formaat](https://www.jstatsoft.org/article/view/v059i10). Het is een smal (d.w.z. weinig attributen), maar lang (veel rijen) formaat. Neem bijvoorbeeld energieverbruik voor particuliere woningen. In dat bestand zijn er meerdere regels voor dezelfde buurt, maar met verschillende waarden voor de categorische variabele `Woningkenmerken`.
 * De gegevens die via WFS en OData beschikbaar worden gesteld, zijn niet eenvoudig te filteren op provincie. Om alleen de gegevens van provincie Zuid-Holland op te halen is een tussenstap nodig.

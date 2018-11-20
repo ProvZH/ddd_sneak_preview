@@ -5,54 +5,56 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    E:\FME2017\fme.exe C:\Users\Willy\Desktop\Voorbeeld_CBS.fmw
+#    E:\FME2017\fme.exe C:\temp\git\ddd_sneak_preview\FME\voorbeeld_cbs.fmw
+#          --DestDataset_GEOJSON "C:\temp\git\ddd_sneak_preview\data\energieverbruik_particuliere_woningen_2017_per_buurt.geojson"
+#          --DestDataset_TDE "C:\temp\git\ddd_sneak_preview\data"
 #    
 #    
-#!   CATEGORY=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   HISTORY="19-11-2018,Willy&lt;space&gt;Tadema,"
-#!   SHOW_INFO_NODES="true"
-#!   ZOOM_SCALE="49"
-#!   MARKDOWN_DESCRIPTION=""
-#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
-#!   MARKDOWN_USAGE=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   VIEW_POSITION="-57.3985 0"
+#!   WORKSPACE_VERSION="1"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   BEGIN_TCL=""
-#!   PASSWORD=""
-#!   END_TCL=""
-#!   DOC_TOP_LEFT="289.941 -2322.71"
-#!   FME_STROKE_MAX_DEVIATION="0"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   USAGE=""
+#!   SHOW_INFO_NODES="true"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   DOC_EXTENTS="7214.68 1591.83"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   BEGIN_PYTHON=""
-#!   USAGE=""
-#!   DESTINATION="NONE"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Het doel van deze workspace is om te demonstreren hoe je:&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;* een dataset van het CBS kunt inlezen met behulp van de WFS,&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;* een dataset van het CBS kunt inlezen via de OData Feed,&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;* de combinatie van deze twee datasets kunt filteren op de provinciegrens. &lt;/p&gt;&#10;"
-#!   FME_SERVER_SERVICES=""
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   LAST_SAVE_DATE="2018-11-19T18:04:03"
-#!   TERMINATE_REJECTED="YES"
-#!   SOURCE_ROUTING_FILE=""
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   DOC_EXTENTS="6548.61 1604.5"
-#!   LOG_FILE=""
-#!   USE_MARKDOWN="NO"
-#!   IGNORE_READER_FAILURE="No"
-#!   SHOW_ANNOTATIONS="true"
 #!   REDIRECT_TERMINATORS="NONE"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   FME_DOCUMENT_PRIORGUID="3fb41dcc-9ea3-4ec4-9a11-1b892d747aaa,412d1913-eedf-46b7-83a9-feb9b6495ffd,9f245e39-46a5-4034-92fc-283132b13655"
+#!   CATEGORY=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   PASSWORD=""
+#!   HISTORY="19-11-2018,Willy&lt;space&gt;Tadema,"
+#!   LOG_FILE=""
+#!   DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Het doel van deze workspace is om te demonstreren hoe je:&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;* een dataset van het CBS kunt inlezen met behulp van de WFS,&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;* een dataset van het CBS kunt inlezen via de OData Feed,&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;* de combinatie van deze twee datasets kunt filteren op de provinciegrens. &lt;/p&gt;&#10;"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   VIEW_POSITION="-478.728 13.298"
+#!   LAST_SAVE_DATE="2018-11-20T22:19:55"
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_SERVER_SERVICES=""
+#!   SOURCE_ROUTING_FILE=""
 #!   TITLE="Voorbeeld CBS"
+#!   MARKDOWN_USAGE=""
 #!   END_PYTHON=""
-#!   FME_BUILD_NUM="17539"
-#!   WORKSPACE_VERSION="1"
-#!   MAX_LOG_FEATURES="200"
-#!   FME_DOCUMENT_GUID="d2fc2a2d-9bff-4d6d-a0b6-fecccb0af983"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   IGNORE_READER_FAILURE="No"
+#!   FME_DOCUMENT_GUID="c3a6d3b9-bca6-4487-b690-3dcffc8b6a62"
+#!   ZOOM_SCALE="47"
+#!   TERMINATE_REJECTED="YES"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   MAX_LOG_FEATURES="200"
+#!   END_TCL=""
 #!   SOURCE="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_TOP_LEFT="289.941 -2322.71"
+#!   FME_BUILD_NUM="17539"
+#!   USE_MARKDOWN="NO"
+#!   FME_DOCUMENT_PRIORGUID="3fb41dcc-9ea3-4ec4-9a11-1b892d747aaa,412d1913-eedf-46b7-83a9-feb9b6495ffd,9f245e39-46a5-4034-92fc-283132b13655,d2fc2a2d-9bff-4d6d-a0b6-fecccb0af983,21ac58b9-0c19-471f-b99c-9eb1f016a050,82594b49-6d7c-4302-a2cb-cca3011d40ab"
+#!   MARKDOWN_DESCRIPTION=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   DESTINATION="NONE"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -68,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="xml_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string xml_char(50) fme_geometry fme_char(50) fme_feature_type xml_char(50) fme_start_angle xml_real64 multi_reader_full_id xml_int32 fme_rotation xml_real64 fme_type xml_char(50) fme_sweep_angle xml_real64 multi_reader_id xml_int32 fme_fill_color xml_char(50) xml_type xml_char(50) fme_text_size xml_real64 multi_reader_keyword xml_char(50) fme_basename xml_char(50) fme_secondary_axis xml_real64 fme_color xml_char(50) fme_dataset xml_char(50) fme_primary_axis xml_real64 multi_reader_type xml_char(50)"
+#!   EXPOSABLE_ATTRS="fme_fill_color xml_char(50) fme_text_size xml_real64 multi_reader_keyword xml_char(50) fme_sweep_angle xml_real64 multi_reader_id xml_int32 multi_reader_type xml_char(50) fme_start_angle xml_real64 fme_feature_type xml_char(50) xml_type xml_char(50) fme_dataset xml_char(50) fme_type xml_char(50) fme_primary_axis xml_real64 multi_reader_full_id xml_int32 fme_color xml_char(50) fme_rotation xml_real64 fme_geometry fme_char(50) fme_text_string xml_char(50) fme_secondary_axis xml_real64 fme_basename xml_char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -78,12 +80,12 @@
 #!   DATASET_TYPE="URL"
 #!   GENERATE_FME_BUILD_NUM="16167"
 #!   NAME="provinciegrens"
+#!   FEATURE_TYPES=""
+#!   MIN_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
 #!   START_FEATURE=""
 #!   MAX_FEATURES=""
-#!   MIN_FEATURES=""
 #!   COORDSYS=""
-#!   MAX_FEATURES_PER_FEATURE_TYPE=""
-#!   FEATURE_TYPES=""
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
@@ -100,6 +102,96 @@
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
 #!   VALUE="Specify the WFS URL"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="GEOJSON"
+#!   DATASET="$(DestDataset_GEOJSON)"
+#!   KEYWORD="GEOJSON_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="600"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename string fme_primary_axis float fme_text_size float fme_color string fme_dataset string fme_feature_type string fme_sweep_angle float fme_geometry fme_char(50) fme_rotation float fme_text_string string fme_start_angle float fme_secondary_axis float fme_type string fme_fill_color string"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
+#!   COORDSYS=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="json file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/geo+json ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the GeoJSON file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the GeoJSON file(s) or type the GeoJSON URL"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="TDE"
+#!   DATASET="$(DestDataset_TDE)"
+#!   KEYWORD="TDE_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="255"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="fme_table_handling CREATE_IF_MISSING tde_table_collation Collation_Binary tde_type {FME_GEN_GEOMETRY}"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename charstring fme_primary_axis double fme_text_size double fme_color charstring fme_dataset charstring fme_feature_type charstring fme_sweep_angle double fme_geometry fme_char(50) fme_rotation double fme_text_string charstring fme_start_angle double fme_secondary_axis double fme_type charstring fme_fill_color charstring tde_type string"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_table_handling%tde_table_collation General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Use&lt;space&gt;Existing,USE_EXISTING,tde_table_collation Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE tde_table_collation Internal&lt;space&gt;Representation,0%Arabic,1%Czech,2%Czech&lt;space&gt;(Case&lt;space&gt;Insensitive),3%Czech&lt;space&gt;(Case/Accent&lt;space&gt;Insensitive),4%Danish,5%German,6%English&lt;space&gt;(Great&lt;space&gt;Britain),8%English&lt;space&gt;(US),9%English&lt;space&gt;(US&lt;comma&gt;&lt;space&gt;Case&lt;space&gt;Insensitive),10%Spanish,11%Spanish&lt;space&gt;(Case/Accent&lt;space&gt;Insensitive),12%Estonian,13%Finnish,14%French&lt;space&gt;(Canada),15%French&lt;space&gt;(France),16%French&lt;space&gt;(France&lt;comma&gt;&lt;space&gt;Case/Accent&lt;space&gt;Insensitive),17%Hebrew,18%Hungarian,19%Icelandic,20%Italian,21%Japanese&lt;space&gt;(JIS),23%Korean,24%Lithuanian,25%Latvian,26%Dutch&lt;space&gt;(Netherlands),27%Norwegian,28%Polish,29%Portuguese&lt;space&gt;(Brazil),30%Portuguese&lt;space&gt;(Brazil&lt;comma&gt;&lt;space&gt;Case/Accent&lt;space&gt;Insensitive),31%Portuguese&lt;space&gt;(Portugal),32%Russian,34%Slovenian,35%Swedish&lt;space&gt;(Finland),36%Swedish&lt;space&gt;(Sweden),37%Turkishet,38%Ukranian,39%Vietnamese,40%Chinese&lt;space&gt;(Simplified&lt;comma&gt;&lt;space&gt;China),41%Chinese&lt;space&gt;(Traditional&lt;comma&gt;&lt;space&gt;Taiwan),42%\&quot;\&quot; Table Locale&quot; 0 &quot;GUI ACTIVEDISCLOSUREGROUP write_geometry geometry_col_name Write Geometry&quot; Yes &quot;GUI STRING_ENCODED geometry_col_name Geometry Column Name:&quot; geometry "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS="&quot;*{}$"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="DIRONLY"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#!   COORDSYS=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="tde file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Tableau TDE Directory"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="DELETE_TABLEAU_LOGFILE"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -266,6 +358,282 @@
 #!   FME_TYPE="fme_buffer"
 #!   FORMAT="WFS"
 #! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="charstring"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="charstring"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="TDE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GEOJSON"
+#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
@@ -364,6 +732,186 @@
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="WFS"
 #! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tde_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="TDE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_ellipse"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_arc"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_rectangle"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_rounded_rectangle"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_line"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_line"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="GEOJSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="GEOJSON"
+#! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
@@ -396,10 +944,94 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="provincienaam.xsi_nil" ATTR_TYPE="xml_boolean" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="geom" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="energieverbruik"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="36"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="6902.73 -1044.14"
+#!   BOUNDING_RECT="6902.73 -1044.14 574.929 71"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="GEOJSON_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="0"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="buurtcode" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="buurtnaam" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gemeentecode" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gemeentenaam" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="wijkcode" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Woningkenmerken" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="WijkenEnBuurten" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Gemeentenaam" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SoortRegio" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Codering" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GemiddeldAardgasverbruik_m3" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GemiddeldElektriciteitsverbruik_kWh" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Stadsverwarming_perc" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="IndelingswijzigingWijkenEnBuurten" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Woningkenmerken_label" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="energieverbruik"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="50"
+#!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
+#!   POSITION="6930.16 -1280.63"
+#!   BOUNDING_RECT="6930.16 -1280.63 574.453 71"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="TDE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="0"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="buurtcode" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="buurtnaam" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gemeentecode" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gemeentenaam" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="wijkcode" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Woningkenmerken" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="WijkenEnBuurten" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Gemeentenaam" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SoortRegio" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Codering" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GemiddeldAardgasverbruik_m3" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GemiddeldElektriciteitsverbruik_kWh" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Stadsverwarming_perc" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="IndelingswijzigingWijkenEnBuurten" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Woningkenmerken_label" ATTR_TYPE="charstring" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="geometry_col_name" PARM_VALUE="geometry"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="tde_table_collation" PARM_VALUE="0"/>
+#!     <DEFLINE_PARM PARM_NAME="write_geometry" PARM_VALUE="YES"/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_GEOJSON GeoJSON_Files(*.json)|*.json|All_Files|* Destination GeoJSON File:"
+#!   DEFAULT_VALUE="C:\temp\git\ddd_sneak_preview\data\energieverbruik_particuliere_woningen_2017_per_buurt.geojson"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME DestDataset_TDE Destination Tableau TDE Directory:"
+#!   DEFAULT_VALUE="C:\temp\git\ddd_sneak_preview\data"
+#!   IS_STAND_ALONE="false"
+#! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL TEXT SourceDataset_WFS Source WFS (Web Feature Service) URL:"
 #!   DEFAULT_VALUE="https://geodata.nationaalgeoregister.nl/bestuurlijkegrenzen/wfs?"
@@ -420,14 +1052,14 @@
 #! <COMMENT
 #!   IDENTIFIER="46"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Inlezen van CBS-dataset 84314NED (Energieverbruik particuliere woningen 2017) voor alle buurten in de provincie Zuid-Holland&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="289.941 -718.209"
-#!   TOP_LEFT="289.941 -718.209"
-#!   BOTTOM_RIGHT="2587.11 -816.96"
-#!   BOUNDING_RECT="289.941 -718.209 2297.17 98.7507"
+#!   POSITION="289.941 -730.878"
+#!   TOP_LEFT="289.941 -730.878"
+#!   BOTTOM_RIGHT="2587.11 -829.629"
+#!   BOUNDING_RECT="289.941 -730.878 2297.17 98.7507"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="10"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="0"
@@ -442,25 +1074,40 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="10"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="0"
 #! />
 #! <COMMENT
-#!   IDENTIFIER="36"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Deze buurten liggen in het water&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="6121.62 -1707.72"
-#!   TOP_LEFT="6121.62 -1707.72"
-#!   BOTTOM_RIGHT="6120.62 -1706.72"
-#!   BOUNDING_RECT="6121.62 -1707.72 -1 -1"
+#!   IDENTIFIER="56"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;GeoJSON&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="7099.09 -850.432"
+#!   TOP_LEFT="7099.09 -850.432"
+#!   BOTTOM_RIGHT="7098.09 -849.432"
+#!   BOUNDING_RECT="7099.09 -850.432 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   COLOUR="1,1,0.784314,0.196078"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
-#!   ANCHORED_NODE="59"
+#!   ANCHORED_NODE="36"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="58"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tableau&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="7248.65 -1593.69"
+#!   TOP_LEFT="7248.65 -1593.69"
+#!   BOTTOM_RIGHT="7247.65 -1592.69"
+#!   BOUNDING_RECT="7248.65 -1593.69 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="50"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -475,7 +1122,7 @@
 #!   BOUNDING_RECT="1752.05 -964.922 1170.13 603.076"
 #!   STICKY="true"
 #!   COLOUR="0.976471,0.956863,0.466667"
-#!   CONTENTS="16 18 20 "
+#!   CONTENTS="20 16 18 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="43"
@@ -486,29 +1133,29 @@
 #!   BOUNDING_RECT="289.941 -1626.92 1950.01 450.954"
 #!   STICKY="true"
 #!   COLOUR="0.329412,0.529412,0.329412"
-#!   CONTENTS="30 32 40 31 33 "
+#!   CONTENTS="32 30 40 31 33 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="38"
 #!   NAME="Provinciegrens met een kleine buffer"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="289.941 -968.105"
 #!   BOTTOM_RIGHT="1490.52 -1337.73"
 #!   BOUNDING_RECT="289.941 -968.105 1200.58 369.628"
 #!   STICKY="true"
 #!   COLOUR="0.682353,0.227451,0.403922"
-#!   CONTENTS="10 9 2 "
+#!   CONTENTS="2 10 9 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="57"
 #!   NAME="Datasets inlezen"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="2421.38 -1639.27"
 #!   BOTTOM_RIGHT="5450.27 -2072.39"
 #!   BOUNDING_RECT="2421.38 -1639.27 3028.89 433.118"
 #!   STICKY="true"
-#!   COLOUR="0.494118,0.635294,0.662745"
-#!   CONTENTS="55 48 54 47 42 45 39 44 34 "
+#!   COLOUR="0.494118,0.631373,0.658824"
+#!   CONTENTS="55 45 48 42 47 39 34 54 44 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -544,21 +1191,21 @@
 #!     <XFORM_ATTR ATTR_NAME="provincienaam.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="geom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CAP_STYLE" PARM_VALUE="Round"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Bufferer"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CAP_STYLE" PARM_VALUE="Round"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="CORNER_STYLE" PARM_VALUE="Round"/>
 #!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="OFFSET" PARM_VALUE="100"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MITER_LIMIT" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ANGLE" PARM_VALUE="22.5"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="OFFSET" PARM_VALUE="100"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="16"
@@ -697,80 +1344,80 @@
 #!     <XFORM_ATTR ATTR_NAME="provincienaam.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="geom" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="WFS"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
-#!     <XFORM_PARM PARM_NAME="WFS_QNAMES_FOR_PROPERTIES_TO_IGNORE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_GML_READER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_PREFER_POST" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="cbs_buurten_2017"/>
-#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_MAX_RESULT_FEATURES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="https:&lt;solidus&gt;&lt;solidus&gt;geodata.nationaalgeoregister.nl&lt;solidus&gt;wijkenbuurten2017&lt;solidus&gt;wfs?&lt;amp&gt;request=GetCapabilities&lt;amp&gt;service=WFS"/>
-#!     <XFORM_PARM PARM_NAME="WFS_ENFORCE_PATH_CONTINUITY_BY" PARM_VALUE="SNAPPING_END_POINTS"/>
-#!     <XFORM_PARM PARM_NAME="WFS_FME_FEATURE_IDENTIFIER" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_PREFERRED_VERSION" PARM_VALUE="1.0.0"/>
-#!     <XFORM_PARM PARM_NAME="WFS_WFS_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_MAP_FEATURE_COLLECTION" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="cbs_buurten_2017,&quot;gml_parent_id,gml_parent_property,gml_id,aantal_inwoners,aantal_inwoners.xsi_nil,mannen,mannen.xsi_nil,vrouwen,vrouwen.xsi_nil,aantal_huishoudens,aantal_huishoudens.xsi_nil,bevolkingsdichtheid_inwoners_per_km2,bevolkingsdichtheid_inwoners_per_km2.xsi_nil,buurtcode,buurtcode.xsi_nil,buurtnaam,buurtnaam.xsi_nil,dekkingspercentage,dekkingspercentage.xsi_nil,gemiddelde_huishoudsgrootte,gemiddelde_huishoudsgrootte.xsi_nil,gemeentecode,gemeentecode.xsi_nil,gemeentenaam,gemeentenaam.xsi_nil,indelingswijziging_wijken_en_buurten_indicator,indelingswijziging_wijken_en_buurten_indicator.xsi_nil,omgevingsadressendichtheid,omgevingsadressendichtheid.xsi_nil,oppervlakte_land_in_ha,oppervlakte_land_in_ha.xsi_nil,oppervlakte_totaal_in_ha,oppervlakte_totaal_in_ha.xsi_nil,oppervlakte_water_in_ha,oppervlakte_water_in_ha.xsi_nil,percentage_personen_0_tot_15_jaar,percentage_personen_0_tot_15_jaar.xsi_nil,percentage_personen_15_tot_25_jaar,percentage_personen_15_tot_25_jaar.xsi_nil,percentage_personen_25_tot_45_jaar,percentage_personen_25_tot_45_jaar.xsi_nil,percentage_personen_45_tot_65_jaar,percentage_personen_45_tot_65_jaar.xsi_nil,percentage_personen_65_jaar_en_ouder,percentage_personen_65_jaar_en_ouder.xsi_nil,percentage_uit_nederlandse_antillen_en_aruba,percentage_uit_nederlandse_antillen_en_aruba.xsi_nil,percentage_eenpersoonshuishoudens,percentage_eenpersoonshuishoudens.xsi_nil,percentage_gehuwd,percentage_gehuwd.xsi_nil,percentage_gescheid,percentage_gescheid.xsi_nil,percentage_huishoudens_met_kinderen,percentage_huishoudens_met_kinderen.xsi_nil,percentage_huishoudens_zonder_kinderen,percentage_huishoudens_zonder_kinderen.xsi_nil,percentage_uit_marokko,percentage_uit_marokko.xsi_nil,percentage_niet_westerse_allochtonen,percentage_niet_westerse_allochtonen.xsi_nil,percentage_ongehuwd,percentage_ongehuwd.xsi_nil,percentage_overige_niet_westerse_allochtonen,percentage_overige_niet_westerse_allochtonen.xsi_nil,percentage_uit_suriname,percentage_uit_suriname.xsi_nil,percentage_uit_turkije,percentage_uit_turkije.xsi_nil,percentage_verweduwd,percentage_verweduwd.xsi_nil,percentage_westerse_allochtonen,percentage_westerse_allochtonen.xsi_nil,meest_voorkomende_postcode,meest_voorkomende_postcode.xsi_nil,stedelijkheid_adressen_per_km2,stedelijkheid_adressen_per_km2.xsi_nil,water,water.xsi_nil,wijkcode,wijkcode.xsi_nil,geom,fme_geometry{0}&quot;"/>
-#!     <XFORM_PARM PARM_NAME="WFS_TABLELIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE="cbs_buurten_2017"/>
-#!     <XFORM_PARM PARM_NAME="WFS_MAP_COMPLEX_PROPERTIES_AS" PARM_VALUE="Nested Attributes"/>
-#!     <XFORM_PARM PARM_NAME="WFS_MAX_MULTI_LIST_LEVEL" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="Contains"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
-#!     <XFORM_PARM PARM_NAME="WFS_OUTPUT_FORMAT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_IGNORE_APPLICATON_SCHEMA" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WFS_FILTER_EXPRESSION" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourcePREFER_DATASET_URL&lt;comma&gt;No&lt;comma&gt;SourcePREFER_POST&lt;comma&gt;No&lt;comma&gt;SourcePREFERRED_VERSION&lt;comma&gt;1.0.0&lt;comma&gt;SourceTIMEOUT_GROUP&lt;comma&gt;NO&lt;comma&gt;SourceCONNECTION_TIMEOUT&lt;comma&gt;90&lt;comma&gt;SourceTRANSFER_TIMEOUT&lt;comma&gt;90&lt;comma&gt;SourceMAX_RESULT_FEATURES&lt;comma&gt;&lt;comma&gt;SourceSTART_INDEX&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceCOUNT&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceOUTPUT_FORMAT&lt;comma&gt;&lt;comma&gt;SourceFILTER_EXPRESSION&lt;comma&gt;&lt;comma&gt;SourceIGNORE_APPLICATON_SCHEMA&lt;comma&gt;no&lt;comma&gt;SourceXSD_DOC&lt;comma&gt;&lt;comma&gt;SourceFME_FEATURE_IDENTIFIER&lt;comma&gt;&lt;comma&gt;SourceMAP_FEATURE_COLLECTION&lt;comma&gt;&lt;comma&gt;SourceGML_FEATURE_ELEMENTS&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceGMLSRS_GEOMETRY_PARAMETERS&lt;comma&gt;&lt;comma&gt;SourceSRS_AXIS_ORDER&lt;comma&gt;&lt;comma&gt;SourceSRS_ANGLE_DIRECTION&lt;comma&gt;&lt;comma&gt;SourceENFORCE_PATH_CONTINUITY_BY&lt;comma&gt;SNAPPING_END_POINTS&lt;comma&gt;SourceGML_READER_GROUP&lt;comma&gt;&lt;comma&gt;SourceUSE_OLD_READER&lt;comma&gt;NO&lt;comma&gt;SourceDISABLE_AUTOMATIC_READER_TYPE_SELECTION&lt;comma&gt;NO&lt;comma&gt;SourceDISABLE_XML_NAMESPACE_PROCESSING&lt;comma&gt;NO&lt;comma&gt;SourceGML_FEATURE_PROPERTIES&lt;comma&gt;&lt;comma&gt;SourceMAP_EMBEDDED_OBJECTS_AS&lt;comma&gt;ATTRIBUTES&lt;comma&gt;SourceMAP_PREDEFINED_GML_PROPERTIES&lt;comma&gt;NO&lt;comma&gt;SourceMAP_GEOMETRY_COLUMNS&lt;comma&gt;YES&lt;comma&gt;SourceADD_NAMESPACE_PREFIX_TO_NAMES&lt;comma&gt;&lt;comma&gt;SourceQNAMES_FOR_PROPERTIES_TO_IGNORE&lt;comma&gt;&lt;comma&gt;SourceGML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP&lt;comma&gt;&lt;comma&gt;SourceMAP_COMPLEX_PROPERTIES_AS&lt;comma&gt;&lt;quote&gt;Nested&lt;space&gt;Attributes&lt;quote&gt;&lt;comma&gt;SourceMAX_MULTI_LIST_LEVEL&lt;comma&gt;&lt;comma&gt;SourceXML_FRAGMENTS_AS_DOCUMENTS&lt;comma&gt;YES&lt;comma&gt;SourceFLATTEN_XML_FRAGMENTS&lt;comma&gt;NO&lt;comma&gt;SourceFLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE&lt;comma&gt;&lt;comma&gt;SourceFLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE&lt;comma&gt;&lt;comma&gt;SourceFLATTEN_XML_FRAGMENTS_SEPARATOR&lt;comma&gt;&lt;comma&gt;SourceARCGIS_CACHE_GROUP&lt;comma&gt;&lt;comma&gt;SourceLOCAL_CACHE_EXPIRY&lt;comma&gt;60&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourceWFS_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceBBOX_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceNETWORK_AUTHENTICATION&lt;comma&gt;,METAFILE,WFS"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_XML_FRAGMENTS_AS_DOCUMENTS" PARM_VALUE="YES"/>
-#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WFS_SRS_ANGLE_DIRECTION" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_LOCAL_CACHE_EXPIRY" PARM_VALUE="60"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="WFS_MAP_EMBEDDED_OBJECTS_AS,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;Attributes&quot;&quot;,ATTRIBUTES%&quot;&quot;Geometries&quot;&quot;,GEOMETRIES%&quot;&quot;Feature Types&quot;&quot;,FEATURE_TYPES&quot;,WFS&lt;space&gt;Map&lt;space&gt;Embedded&lt;space&gt;Objects&lt;space&gt;as:,WFS_GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP,&quot;OPTIONAL DISCLOSUREGROUP MAP_COMPLEX_PROPERTIES_AS%MAX_MULTI_LIST_LEVEL%XML_FRAGMENTS_AS_DOCUMENTS%FLATTEN_XML_FRAGMENTS&quot;,WFS&lt;space&gt;GML&lt;space&gt;Feature&lt;space&gt;Properties&lt;space&gt;-&lt;space&gt;Attribute&lt;space&gt;Handling,WFS_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP WFS_EXPOSE_FORMAT_ATTRS&quot;,WFS&lt;space&gt;Schema&lt;space&gt;Attributes,WFS_FILTER_EXPRESSION,&quot;OPTIONAL TEXT_EDIT__ENCODED&quot;,WFS&lt;space&gt;XML&lt;space&gt;Filter&lt;space&gt;Expression:,WFS_OUTPUT_FORMAT,&quot;OPTIONAL STRING_OR_CHOICE&quot;,WFS&lt;space&gt;WFS&lt;space&gt;Output&lt;space&gt;Format:,WFS_MAX_MULTI_LIST_LEVEL,&quot;OPTIONAL CHOICE 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20&quot;,WFS&lt;space&gt;Limit&lt;space&gt;Number&lt;space&gt;of&lt;space&gt;Lists&lt;space&gt;in&lt;space&gt;Nested&lt;space&gt;Attributes:,WFS_FLATTEN_XML_FRAGMENTS,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE%FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE%FLATTEN_XML_FRAGMENTS_SEPARATOR&quot;,WFS&lt;space&gt;Flatten&lt;space&gt;XML&lt;space&gt;Fragments,WFS_MAP_PREDEFINED_GML_PROPERTIES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Map&lt;space&gt;Predefined&lt;space&gt;Properties,WFS_USE_OLD_READER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Use&lt;space&gt;Old&lt;space&gt;Reader&lt;space&gt;for&lt;space&gt;GML&lt;space&gt;v3.1.1&lt;space&gt;and&lt;space&gt;v2.1.2&lt;space&gt;Documents,WFS_TIMEOUT_GROUP,&quot;OPTIONAL DISCLOSUREGROUP CONNECTION_TIMEOUT%TRANSFER_TIMEOUT&quot;,WFS&lt;space&gt;Connection&lt;space&gt;Timeout,WFS_CONNECTION_TIMEOUT,&quot;OPTIONAL RANGE_SLIDER 1%MAX%0&quot;,WFS&lt;space&gt;Connection&lt;space&gt;Timeout&lt;space&gt;Length&lt;space&gt;&lt;openparen&gt;seconds&lt;closeparen&gt;:,WFS_GMLSRS_GEOMETRY_PARAMETERS,&quot;OPTIONAL DISCLOSUREGROUP SRS_AXIS_ORDER%SRS_ANGLE_DIRECTION%ENFORCE_PATH_CONTINUITY_BY&quot;,WFS&lt;space&gt;GML&lt;space&gt;SRS&lt;solidus&gt;Geometry&lt;space&gt;Parameters,WFS_PREFER_DATASET_URL,&quot;OPTIONAL CHECKBOX Yes%No&quot;,WFS&lt;space&gt;Prefer&lt;space&gt;Dataset&lt;space&gt;URL:,WFS_DISABLE_XML_NAMESPACE_PROCESSING,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Disable&lt;space&gt;XML&lt;space&gt;Namespace&lt;space&gt;Processing,WFS_TRANSFER_TIMEOUT,&quot;OPTIONAL RANGE_SLIDER 1%MAX%0&quot;,WFS&lt;space&gt;Transfer&lt;space&gt;Timeout&lt;space&gt;Length&lt;space&gt;&lt;openparen&gt;seconds&lt;closeparen&gt;:,WFS_TABLELIST,&quot;OPTIONAL WFS_FEATURE_TYPES $[DATASET],LAYER_LIST_ONLY,YES,NETWORK_AUTHENTICATION,$[NETWORK_AUTHENTICATION],PREFERRED_VERSION,$[PREFERRED_VERSION],CONNECTION_TIMEOUT,$[CONNECTION_TIMEOUT],TRANSFER_TIMEOUT,$[TRANSFER_TIMEOUT],ADD_NAMESPACE_PREFIX_TO_NAMES,$[ADD_NAMESPACE_PREFIX_TO_NAMES]&quot;,WFS&lt;space&gt;Feature&lt;space&gt;Types:,WFS_MAP_COMPLEX_PROPERTIES_AS,&quot;OPTIONAL ACTIVECHOICE &quot;&quot;Nested Attributes&quot;&quot;%&quot;&quot;XML Fragments&quot;&quot;,MAX_MULTI_LIST_LEVEL&quot;,WFS&lt;space&gt;Map&lt;space&gt;Complex&lt;space&gt;Properties&lt;space&gt;as:,WFS_PREFER_POST,&quot;OPTIONAL CHECKBOX Yes%No&quot;,WFS&lt;space&gt;Prefer&lt;space&gt;HTTP&lt;space&gt;Post&lt;comma&gt;&lt;space&gt;if&lt;space&gt;Available:,WFS_ENFORCE_PATH_CONTINUITY_BY,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;Snapping End Points&quot;&quot;,SNAPPING_END_POINTS%&quot;&quot;Inserting New Segment&quot;&quot;,INSERTING_NEW_SEGMENT&quot;,WFS&lt;space&gt;Enforce&lt;space&gt;Path&lt;space&gt;Continuity&lt;space&gt;By:,WFS_MAP_FEATURE_COLLECTION,&quot;OPTIONAL LOOKUP_LISTBOX gml:FeatureCollection,gml%wfs:FeatureCollection,wfs&quot;,WFS&lt;space&gt;Map&lt;space&gt;FeatureCollection:,WFS_SRS_ANGLE_DIRECTION,&quot;OPTIONAL LOOKUP_CHOICE Counterclockwise,CCW%Clockwise,CW&quot;,WFS&lt;space&gt;GML&lt;space&gt;SRS&lt;space&gt;Angle&lt;space&gt;Direction:,WFS_DISABLE_AUTOMATIC_READER_TYPE_SELECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Disable&lt;space&gt;Automatic&lt;space&gt;Reader&lt;space&gt;Type&lt;space&gt;Selection,WFS_ADD_NAMESPACE_PREFIX_TO_NAMES,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;Feature Types&quot;&quot;,FEATURE_TYPES%&quot;&quot;Feature Types and Attributes&quot;&quot;,FEATURE_TYPES_AND_ATTRIBUTES&quot;,WFS&lt;space&gt;Add&lt;space&gt;XML&lt;space&gt;Namespace&lt;space&gt;Prefix&lt;space&gt;to:,WFS_IGNORE_APPLICATON_SCHEMA,&quot;OPTIONAL ACTIVECHOICE no,GML_FEATURE_ELEMENTS%yes,XSD_DOC,FME_FEATURE_IDENTIFIER,MAP_FEATURE_COLLECTION,GML_FEATURE_PROPERTIES,GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP,GML_READER_GROUP&quot;,WFS&lt;space&gt;Ignore&lt;space&gt;Application&lt;space&gt;Schema:,WFS_MAX_RESULT_FEATURES,&quot;OPTIONAL INTEGER&quot;,WFS&lt;space&gt;Max&lt;space&gt;Features:,WFS_PREFERRED_VERSION,&quot;OPTIONAL ACTIVECHOICE 1.0.0,START_INDEX,COUNT%1.1.0,START_INDEX,COUNT%2.0.0&quot;,WFS&lt;space&gt;WFS&lt;space&gt;Version:,WFS_XML_FRAGMENTS_AS_DOCUMENTS,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Include&lt;space&gt;XML&lt;space&gt;Declaration&lt;space&gt;in&lt;space&gt;XML&lt;space&gt;Fragments,WFS_GML_FEATURE_PROPERTIES,&quot;OPTIONAL DISCLOSUREGROUP MAP_EMBEDDED_OBJECTS_AS%MAP_PREDEFINED_GML_PROPERTIES%MAP_GEOMETRY_COLUMNS%ADD_NAMESPACE_PREFIX_TO_NAMES%QNAMES_FOR_PROPERTIES_TO_IGNORE&quot;,WFS&lt;space&gt;GML&lt;space&gt;Feature&lt;space&gt;Properties,WFS_MAP_GEOMETRY_COLUMNS,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Map&lt;space&gt;Geometry&lt;space&gt;Columns,WFS_GML_READER_GROUP,&quot;OPTIONAL DISCLOSUREGROUP USE_OLD_READER%DISABLE_AUTOMATIC_READER_TYPE_SELECTION%DISABLE_XML_NAMESPACE_PROCESSING&quot;,WFS&lt;space&gt;GML&lt;space&gt;Version&lt;space&gt;and&lt;space&gt;Namespace,WFS_WFS_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS WFS%Source&quot;,WFS&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,WFS_ARCGIS_CACHE_GROUP,&quot;OPTIONAL DISCLOSUREGROUP LOCAL_CACHE_EXPIRY&quot;,WFS&lt;space&gt;ArcGIS&lt;space&gt;Cache&lt;space&gt;Expiry,WFS_XSD_DOC,&quot;OPTIONAL FILE_OR_URL GML_Schema_File(*.xsd)|*.xsd|All_Files(*)|*&quot;,WFS&lt;space&gt;Application&lt;space&gt;Schema:,WFS_SRS_AXIS_ORDER,&quot;OPTIONAL CHOICE 1,2%2,1%1,2,3%2,1,3&quot;,WFS&lt;space&gt;GML&lt;space&gt;SRS&lt;space&gt;Axis&lt;space&gt;Order:,WFS_FME_FEATURE_IDENTIFIER,&quot;OPTIONAL WFS_NUMERIC_IDENTIFIER $[DATASET],LAYER_LIST_ONLY,YES,LAYER_LIST_ONLY_INCLUDE_ATTRIBUTES,YES,HTTP_AUTH_USER,$[HTTP_AUTH_USER],HTTP_AUTH_PASSWORD,$[HTTP_AUTH_PASSWORD],HTTP_AUTH_METHOD,$[HTTP_AUTH_METHOD],HTTP_PROXY,$[HTTP_PROXY],HTTP_PROXY_PORT,$[HTTP_PROXY_PORT],HTTP_PROXY_USER,$[HTTP_PROXY_USER],HTTP_PROXY_PASSWORD,$[HTTP_PROXY_PASSWORD],HTTP_PROXY_AUTH_METHOD,$[HTTP_PROXY_AUTH_METHOD]&quot;,WFS&lt;space&gt;Numeric&lt;space&gt;Identifier&lt;space&gt;Attribute:,WFS_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%CLIP_TO_ENVELOPE%BBOX_COORDINATE_SYSTEM&quot;,WFS&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,WFS_QNAMES_FOR_PROPERTIES_TO_IGNORE,&quot;OPTIONAL TEXT_EDIT_XML_ENCODED&quot;,WFS&lt;space&gt;Properties&lt;space&gt;to&lt;space&gt;Ignore:,WFS_LOCAL_CACHE_EXPIRY,&quot;OPTIONAL INTEGER&quot;,WFS&lt;space&gt;Local&lt;space&gt;Cache&lt;space&gt;Expiry&lt;space&gt;&lt;openparen&gt;minutes&lt;closeparen&gt;:"/>
-#!     <XFORM_PARM PARM_NAME="WFS_XSD_DOC" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_TRANSFER_TIMEOUT" PARM_VALUE="90"/>
-#!     <XFORM_PARM PARM_NAME="WFS_SRS_AXIS_ORDER" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_DISABLE_AUTOMATIC_READER_TYPE_SELECTION" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="WFS_GML_FEATURE_PROPERTIES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#!     <XFORM_PARM PARM_NAME="WFS_ARCGIS_CACHE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_FLATTEN_XML_FRAGMENTS" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="WFS_TIMEOUT_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="WFS_MAP_PREDEFINED_GML_PROPERTIES" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WFS_CONNECTION_TIMEOUT" PARM_VALUE="90"/>
-#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WFS_USE_OLD_READER" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="WFS_MAP_GEOMETRY_COLUMNS" PARM_VALUE="YES"/>
-#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="Contains"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_QNAMES_FOR_PROPERTIES_TO_IGNORE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="https:&lt;solidus&gt;&lt;solidus&gt;geodata.nationaalgeoregister.nl&lt;solidus&gt;wijkenbuurten2017&lt;solidus&gt;wfs?&lt;amp&gt;request=GetCapabilities&lt;amp&gt;service=WFS"/>
 #!     <XFORM_PARM PARM_NAME="WFS_ADD_NAMESPACE_PREFIX_TO_NAMES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WFS_MAP_EMBEDDED_OBJECTS_AS" PARM_VALUE="ATTRIBUTES"/>
-#!     <XFORM_PARM PARM_NAME="WFS_PREFER_DATASET_URL" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="WFS_GMLSRS_GEOMETRY_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="WFS"/>
+#!     <XFORM_PARM PARM_NAME="WFS_MAX_RESULT_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_OUTPUT_FORMAT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_PREFER_POST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE="cbs_buurten_2017"/>
+#!     <XFORM_PARM PARM_NAME="WFS_MAP_PREDEFINED_GML_PROPERTIES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="WFS_LOCAL_CACHE_EXPIRY" PARM_VALUE="60"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WFS_WFS_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_GML_FEATURE_PROPERTIES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_MAP_FEATURE_COLLECTION" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#!     <XFORM_PARM PARM_NAME="WFS_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_TRANSFER_TIMEOUT" PARM_VALUE="90"/>
+#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WFS_XML_FRAGMENTS_AS_DOCUMENTS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="cbs_buurten_2017"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_GMLSRS_GEOMETRY_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_PREFERRED_VERSION" PARM_VALUE="1.0.0"/>
+#!     <XFORM_PARM PARM_NAME="WFS_GML_READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WFS_DISABLE_XML_NAMESPACE_PROCESSING" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="WFS_MAP_COMPLEX_PROPERTIES_AS" PARM_VALUE="Nested Attributes"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="cbs_buurten_2017,&quot;gml_parent_id,gml_parent_property,gml_id,aantal_inwoners,aantal_inwoners.xsi_nil,mannen,mannen.xsi_nil,vrouwen,vrouwen.xsi_nil,aantal_huishoudens,aantal_huishoudens.xsi_nil,bevolkingsdichtheid_inwoners_per_km2,bevolkingsdichtheid_inwoners_per_km2.xsi_nil,buurtcode,buurtcode.xsi_nil,buurtnaam,buurtnaam.xsi_nil,dekkingspercentage,dekkingspercentage.xsi_nil,gemiddelde_huishoudsgrootte,gemiddelde_huishoudsgrootte.xsi_nil,gemeentecode,gemeentecode.xsi_nil,gemeentenaam,gemeentenaam.xsi_nil,indelingswijziging_wijken_en_buurten_indicator,indelingswijziging_wijken_en_buurten_indicator.xsi_nil,omgevingsadressendichtheid,omgevingsadressendichtheid.xsi_nil,oppervlakte_land_in_ha,oppervlakte_land_in_ha.xsi_nil,oppervlakte_totaal_in_ha,oppervlakte_totaal_in_ha.xsi_nil,oppervlakte_water_in_ha,oppervlakte_water_in_ha.xsi_nil,percentage_personen_0_tot_15_jaar,percentage_personen_0_tot_15_jaar.xsi_nil,percentage_personen_15_tot_25_jaar,percentage_personen_15_tot_25_jaar.xsi_nil,percentage_personen_25_tot_45_jaar,percentage_personen_25_tot_45_jaar.xsi_nil,percentage_personen_45_tot_65_jaar,percentage_personen_45_tot_65_jaar.xsi_nil,percentage_personen_65_jaar_en_ouder,percentage_personen_65_jaar_en_ouder.xsi_nil,percentage_uit_nederlandse_antillen_en_aruba,percentage_uit_nederlandse_antillen_en_aruba.xsi_nil,percentage_eenpersoonshuishoudens,percentage_eenpersoonshuishoudens.xsi_nil,percentage_gehuwd,percentage_gehuwd.xsi_nil,percentage_gescheid,percentage_gescheid.xsi_nil,percentage_huishoudens_met_kinderen,percentage_huishoudens_met_kinderen.xsi_nil,percentage_huishoudens_zonder_kinderen,percentage_huishoudens_zonder_kinderen.xsi_nil,percentage_uit_marokko,percentage_uit_marokko.xsi_nil,percentage_niet_westerse_allochtonen,percentage_niet_westerse_allochtonen.xsi_nil,percentage_ongehuwd,percentage_ongehuwd.xsi_nil,percentage_overige_niet_westerse_allochtonen,percentage_overige_niet_westerse_allochtonen.xsi_nil,percentage_uit_suriname,percentage_uit_suriname.xsi_nil,percentage_uit_turkije,percentage_uit_turkije.xsi_nil,percentage_verweduwd,percentage_verweduwd.xsi_nil,percentage_westerse_allochtonen,percentage_westerse_allochtonen.xsi_nil,meest_voorkomende_postcode,meest_voorkomende_postcode.xsi_nil,stedelijkheid_adressen_per_km2,stedelijkheid_adressen_per_km2.xsi_nil,water,water.xsi_nil,wijkcode,wijkcode.xsi_nil,geom,fme_geometry{0}&quot;"/>
+#!     <XFORM_PARM PARM_NAME="WFS_MAX_MULTI_LIST_LEVEL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_SRS_ANGLE_DIRECTION" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#!     <XFORM_PARM PARM_NAME="WFS_SRS_AXIS_ORDER" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_TABLELIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_DISABLE_AUTOMATIC_READER_TYPE_SELECTION" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="WFS_FILTER_EXPRESSION" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WFS_FLATTEN_XML_FRAGMENTS" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
+#!     <XFORM_PARM PARM_NAME="WFS_IGNORE_APPLICATON_SCHEMA" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="WFS_ARCGIS_CACHE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_FME_FEATURE_IDENTIFIER" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_PREFER_DATASET_URL" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="WFS_TIMEOUT_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="WFS_MAP_EMBEDDED_OBJECTS_AS" PARM_VALUE="ATTRIBUTES"/>
+#!     <XFORM_PARM PARM_NAME="WFS_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_ENFORCE_PATH_CONTINUITY_BY" PARM_VALUE="SNAPPING_END_POINTS"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourcePREFER_DATASET_URL&lt;comma&gt;No&lt;comma&gt;SourcePREFER_POST&lt;comma&gt;No&lt;comma&gt;SourcePREFERRED_VERSION&lt;comma&gt;1.0.0&lt;comma&gt;SourceTIMEOUT_GROUP&lt;comma&gt;NO&lt;comma&gt;SourceCONNECTION_TIMEOUT&lt;comma&gt;90&lt;comma&gt;SourceTRANSFER_TIMEOUT&lt;comma&gt;90&lt;comma&gt;SourceMAX_RESULT_FEATURES&lt;comma&gt;&lt;comma&gt;SourceSTART_INDEX&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceCOUNT&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceOUTPUT_FORMAT&lt;comma&gt;&lt;comma&gt;SourceFILTER_EXPRESSION&lt;comma&gt;&lt;comma&gt;SourceIGNORE_APPLICATON_SCHEMA&lt;comma&gt;no&lt;comma&gt;SourceXSD_DOC&lt;comma&gt;&lt;comma&gt;SourceFME_FEATURE_IDENTIFIER&lt;comma&gt;&lt;comma&gt;SourceMAP_FEATURE_COLLECTION&lt;comma&gt;&lt;comma&gt;SourceGML_FEATURE_ELEMENTS&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceGMLSRS_GEOMETRY_PARAMETERS&lt;comma&gt;&lt;comma&gt;SourceSRS_AXIS_ORDER&lt;comma&gt;&lt;comma&gt;SourceSRS_ANGLE_DIRECTION&lt;comma&gt;&lt;comma&gt;SourceENFORCE_PATH_CONTINUITY_BY&lt;comma&gt;SNAPPING_END_POINTS&lt;comma&gt;SourceGML_READER_GROUP&lt;comma&gt;&lt;comma&gt;SourceUSE_OLD_READER&lt;comma&gt;NO&lt;comma&gt;SourceDISABLE_AUTOMATIC_READER_TYPE_SELECTION&lt;comma&gt;NO&lt;comma&gt;SourceDISABLE_XML_NAMESPACE_PROCESSING&lt;comma&gt;NO&lt;comma&gt;SourceGML_FEATURE_PROPERTIES&lt;comma&gt;&lt;comma&gt;SourceMAP_EMBEDDED_OBJECTS_AS&lt;comma&gt;ATTRIBUTES&lt;comma&gt;SourceMAP_PREDEFINED_GML_PROPERTIES&lt;comma&gt;NO&lt;comma&gt;SourceMAP_GEOMETRY_COLUMNS&lt;comma&gt;YES&lt;comma&gt;SourceADD_NAMESPACE_PREFIX_TO_NAMES&lt;comma&gt;&lt;comma&gt;SourceQNAMES_FOR_PROPERTIES_TO_IGNORE&lt;comma&gt;&lt;comma&gt;SourceGML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP&lt;comma&gt;&lt;comma&gt;SourceMAP_COMPLEX_PROPERTIES_AS&lt;comma&gt;&lt;quote&gt;Nested&lt;space&gt;Attributes&lt;quote&gt;&lt;comma&gt;SourceMAX_MULTI_LIST_LEVEL&lt;comma&gt;&lt;comma&gt;SourceXML_FRAGMENTS_AS_DOCUMENTS&lt;comma&gt;YES&lt;comma&gt;SourceFLATTEN_XML_FRAGMENTS&lt;comma&gt;NO&lt;comma&gt;SourceFLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE&lt;comma&gt;&lt;comma&gt;SourceFLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE&lt;comma&gt;&lt;comma&gt;SourceFLATTEN_XML_FRAGMENTS_SEPARATOR&lt;comma&gt;&lt;comma&gt;SourceARCGIS_CACHE_GROUP&lt;comma&gt;&lt;comma&gt;SourceLOCAL_CACHE_EXPIRY&lt;comma&gt;60&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourceWFS_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceBBOX_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceNETWORK_AUTHENTICATION&lt;comma&gt;,METAFILE,WFS"/>
+#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WFS_GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="WFS_XSD_DOC" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="WFS_MAP_EMBEDDED_OBJECTS_AS,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;Attributes&quot;&quot;,ATTRIBUTES%&quot;&quot;Geometries&quot;&quot;,GEOMETRIES%&quot;&quot;Feature Types&quot;&quot;,FEATURE_TYPES&quot;,WFS&lt;space&gt;Map&lt;space&gt;Embedded&lt;space&gt;Objects&lt;space&gt;as:,WFS_GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP,&quot;OPTIONAL DISCLOSUREGROUP MAP_COMPLEX_PROPERTIES_AS%MAX_MULTI_LIST_LEVEL%XML_FRAGMENTS_AS_DOCUMENTS%FLATTEN_XML_FRAGMENTS&quot;,WFS&lt;space&gt;GML&lt;space&gt;Feature&lt;space&gt;Properties&lt;space&gt;-&lt;space&gt;Attribute&lt;space&gt;Handling,WFS_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP WFS_EXPOSE_FORMAT_ATTRS&quot;,WFS&lt;space&gt;Schema&lt;space&gt;Attributes,WFS_FILTER_EXPRESSION,&quot;OPTIONAL TEXT_EDIT__ENCODED&quot;,WFS&lt;space&gt;XML&lt;space&gt;Filter&lt;space&gt;Expression:,WFS_OUTPUT_FORMAT,&quot;OPTIONAL STRING_OR_CHOICE&quot;,WFS&lt;space&gt;WFS&lt;space&gt;Output&lt;space&gt;Format:,WFS_MAX_MULTI_LIST_LEVEL,&quot;OPTIONAL CHOICE 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20&quot;,WFS&lt;space&gt;Limit&lt;space&gt;Number&lt;space&gt;of&lt;space&gt;Lists&lt;space&gt;in&lt;space&gt;Nested&lt;space&gt;Attributes:,WFS_FLATTEN_XML_FRAGMENTS,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE%FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE%FLATTEN_XML_FRAGMENTS_SEPARATOR&quot;,WFS&lt;space&gt;Flatten&lt;space&gt;XML&lt;space&gt;Fragments,WFS_MAP_PREDEFINED_GML_PROPERTIES,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Map&lt;space&gt;Predefined&lt;space&gt;Properties,WFS_USE_OLD_READER,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Use&lt;space&gt;Old&lt;space&gt;Reader&lt;space&gt;for&lt;space&gt;GML&lt;space&gt;v3.1.1&lt;space&gt;and&lt;space&gt;v2.1.2&lt;space&gt;Documents,WFS_TIMEOUT_GROUP,&quot;OPTIONAL DISCLOSUREGROUP CONNECTION_TIMEOUT%TRANSFER_TIMEOUT&quot;,WFS&lt;space&gt;Connection&lt;space&gt;Timeout,WFS_CONNECTION_TIMEOUT,&quot;OPTIONAL RANGE_SLIDER 1%MAX%0&quot;,WFS&lt;space&gt;Connection&lt;space&gt;Timeout&lt;space&gt;Length&lt;space&gt;&lt;openparen&gt;seconds&lt;closeparen&gt;:,WFS_GMLSRS_GEOMETRY_PARAMETERS,&quot;OPTIONAL DISCLOSUREGROUP SRS_AXIS_ORDER%SRS_ANGLE_DIRECTION%ENFORCE_PATH_CONTINUITY_BY&quot;,WFS&lt;space&gt;GML&lt;space&gt;SRS&lt;solidus&gt;Geometry&lt;space&gt;Parameters,WFS_PREFER_DATASET_URL,&quot;OPTIONAL CHECKBOX Yes%No&quot;,WFS&lt;space&gt;Prefer&lt;space&gt;Dataset&lt;space&gt;URL:,WFS_DISABLE_XML_NAMESPACE_PROCESSING,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Disable&lt;space&gt;XML&lt;space&gt;Namespace&lt;space&gt;Processing,WFS_TRANSFER_TIMEOUT,&quot;OPTIONAL RANGE_SLIDER 1%MAX%0&quot;,WFS&lt;space&gt;Transfer&lt;space&gt;Timeout&lt;space&gt;Length&lt;space&gt;&lt;openparen&gt;seconds&lt;closeparen&gt;:,WFS_TABLELIST,&quot;OPTIONAL WFS_FEATURE_TYPES $[DATASET],LAYER_LIST_ONLY,YES,NETWORK_AUTHENTICATION,$[NETWORK_AUTHENTICATION],PREFERRED_VERSION,$[PREFERRED_VERSION],CONNECTION_TIMEOUT,$[CONNECTION_TIMEOUT],TRANSFER_TIMEOUT,$[TRANSFER_TIMEOUT],ADD_NAMESPACE_PREFIX_TO_NAMES,$[ADD_NAMESPACE_PREFIX_TO_NAMES]&quot;,WFS&lt;space&gt;Feature&lt;space&gt;Types:,WFS_MAP_COMPLEX_PROPERTIES_AS,&quot;OPTIONAL ACTIVECHOICE &quot;&quot;Nested Attributes&quot;&quot;%&quot;&quot;XML Fragments&quot;&quot;,MAX_MULTI_LIST_LEVEL&quot;,WFS&lt;space&gt;Map&lt;space&gt;Complex&lt;space&gt;Properties&lt;space&gt;as:,WFS_PREFER_POST,&quot;OPTIONAL CHECKBOX Yes%No&quot;,WFS&lt;space&gt;Prefer&lt;space&gt;HTTP&lt;space&gt;Post&lt;comma&gt;&lt;space&gt;if&lt;space&gt;Available:,WFS_ENFORCE_PATH_CONTINUITY_BY,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;Snapping End Points&quot;&quot;,SNAPPING_END_POINTS%&quot;&quot;Inserting New Segment&quot;&quot;,INSERTING_NEW_SEGMENT&quot;,WFS&lt;space&gt;Enforce&lt;space&gt;Path&lt;space&gt;Continuity&lt;space&gt;By:,WFS_MAP_FEATURE_COLLECTION,&quot;OPTIONAL LOOKUP_LISTBOX gml:FeatureCollection,gml%wfs:FeatureCollection,wfs&quot;,WFS&lt;space&gt;Map&lt;space&gt;FeatureCollection:,WFS_SRS_ANGLE_DIRECTION,&quot;OPTIONAL LOOKUP_CHOICE Counterclockwise,CCW%Clockwise,CW&quot;,WFS&lt;space&gt;GML&lt;space&gt;SRS&lt;space&gt;Angle&lt;space&gt;Direction:,WFS_DISABLE_AUTOMATIC_READER_TYPE_SELECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Disable&lt;space&gt;Automatic&lt;space&gt;Reader&lt;space&gt;Type&lt;space&gt;Selection,WFS_ADD_NAMESPACE_PREFIX_TO_NAMES,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;Feature Types&quot;&quot;,FEATURE_TYPES%&quot;&quot;Feature Types and Attributes&quot;&quot;,FEATURE_TYPES_AND_ATTRIBUTES&quot;,WFS&lt;space&gt;Add&lt;space&gt;XML&lt;space&gt;Namespace&lt;space&gt;Prefix&lt;space&gt;to:,WFS_IGNORE_APPLICATON_SCHEMA,&quot;OPTIONAL ACTIVECHOICE no,GML_FEATURE_ELEMENTS%yes,XSD_DOC,FME_FEATURE_IDENTIFIER,MAP_FEATURE_COLLECTION,GML_FEATURE_PROPERTIES,GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP,GML_READER_GROUP&quot;,WFS&lt;space&gt;Ignore&lt;space&gt;Application&lt;space&gt;Schema:,WFS_MAX_RESULT_FEATURES,&quot;OPTIONAL INTEGER&quot;,WFS&lt;space&gt;Max&lt;space&gt;Features:,WFS_PREFERRED_VERSION,&quot;OPTIONAL ACTIVECHOICE 1.0.0,START_INDEX,COUNT%1.1.0,START_INDEX,COUNT%2.0.0&quot;,WFS&lt;space&gt;WFS&lt;space&gt;Version:,WFS_XML_FRAGMENTS_AS_DOCUMENTS,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Include&lt;space&gt;XML&lt;space&gt;Declaration&lt;space&gt;in&lt;space&gt;XML&lt;space&gt;Fragments,WFS_GML_FEATURE_PROPERTIES,&quot;OPTIONAL DISCLOSUREGROUP MAP_EMBEDDED_OBJECTS_AS%MAP_PREDEFINED_GML_PROPERTIES%MAP_GEOMETRY_COLUMNS%ADD_NAMESPACE_PREFIX_TO_NAMES%QNAMES_FOR_PROPERTIES_TO_IGNORE&quot;,WFS&lt;space&gt;GML&lt;space&gt;Feature&lt;space&gt;Properties,WFS_MAP_GEOMETRY_COLUMNS,&quot;OPTIONAL CHECKBOX YES%NO&quot;,WFS&lt;space&gt;Map&lt;space&gt;Geometry&lt;space&gt;Columns,WFS_GML_READER_GROUP,&quot;OPTIONAL DISCLOSUREGROUP USE_OLD_READER%DISABLE_AUTOMATIC_READER_TYPE_SELECTION%DISABLE_XML_NAMESPACE_PROCESSING&quot;,WFS&lt;space&gt;GML&lt;space&gt;Version&lt;space&gt;and&lt;space&gt;Namespace,WFS_WFS_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS WFS%Source&quot;,WFS&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,WFS_ARCGIS_CACHE_GROUP,&quot;OPTIONAL DISCLOSUREGROUP LOCAL_CACHE_EXPIRY&quot;,WFS&lt;space&gt;ArcGIS&lt;space&gt;Cache&lt;space&gt;Expiry,WFS_XSD_DOC,&quot;OPTIONAL FILE_OR_URL GML_Schema_File(*.xsd)|*.xsd|All_Files(*)|*&quot;,WFS&lt;space&gt;Application&lt;space&gt;Schema:,WFS_SRS_AXIS_ORDER,&quot;OPTIONAL CHOICE 1,2%2,1%1,2,3%2,1,3&quot;,WFS&lt;space&gt;GML&lt;space&gt;SRS&lt;space&gt;Axis&lt;space&gt;Order:,WFS_FME_FEATURE_IDENTIFIER,&quot;OPTIONAL WFS_NUMERIC_IDENTIFIER $[DATASET],LAYER_LIST_ONLY,YES,LAYER_LIST_ONLY_INCLUDE_ATTRIBUTES,YES,HTTP_AUTH_USER,$[HTTP_AUTH_USER],HTTP_AUTH_PASSWORD,$[HTTP_AUTH_PASSWORD],HTTP_AUTH_METHOD,$[HTTP_AUTH_METHOD],HTTP_PROXY,$[HTTP_PROXY],HTTP_PROXY_PORT,$[HTTP_PROXY_PORT],HTTP_PROXY_USER,$[HTTP_PROXY_USER],HTTP_PROXY_PASSWORD,$[HTTP_PROXY_PASSWORD],HTTP_PROXY_AUTH_METHOD,$[HTTP_PROXY_AUTH_METHOD]&quot;,WFS&lt;space&gt;Numeric&lt;space&gt;Identifier&lt;space&gt;Attribute:,WFS_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%CLIP_TO_ENVELOPE%BBOX_COORDINATE_SYSTEM&quot;,WFS&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,WFS_QNAMES_FOR_PROPERTIES_TO_IGNORE,&quot;OPTIONAL TEXT_EDIT_XML_ENCODED&quot;,WFS&lt;space&gt;Properties&lt;space&gt;to&lt;space&gt;Ignore:,WFS_LOCAL_CACHE_EXPIRY,&quot;OPTIONAL INTEGER&quot;,WFS&lt;space&gt;Local&lt;space&gt;Cache&lt;space&gt;Expiry&lt;space&gt;&lt;openparen&gt;minutes&lt;closeparen&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="18"
@@ -790,11 +1437,11 @@
 #!     <XFORM_ATTR ATTR_NAME="gemeentecode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gemeentenaam" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="wijkcode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper_2"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper_2"/>
-#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="gemeentenaam,wijkcode,buurtnaam,buurtcode,gemeentecode"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="gemeentenaam,wijkcode,buurtnaam,buurtcode,gemeentecode"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="30"
@@ -810,16 +1457,16 @@
 #!     <OUTPUT_FEAT NAME="CREATED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="31"
@@ -847,47 +1494,47 @@
 #!     <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
-#!     <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller"/>
 #!     <XFORM_PARM PARM_NAME="ERROR_ATTR" PARM_VALUE="_error"/>
-#!     <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="count"/>
-#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
-#!     <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="_headers"/>
-#!     <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="auto-detect"/>
-#!     <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="$(SourceDataset_OData)&lt;solidus&gt;&lt;dollar&gt;count"/>
-#!     <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
-#!     <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="UPLOAD_CONTENT_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FILE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
+#!     <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FILE_PATH_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
+#!     <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="count"/>
+#!     <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
+#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="auto-detect"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="$(SourceDataset_OData)&lt;solidus&gt;&lt;dollar&gt;count"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ADVANCED_REQUEST_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="_headers"/>
+#!     <XFORM_PARM PARM_NAME="FILE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="33"
@@ -916,11 +1563,11 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COPYATT" PARM_VALUE="number"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Cloner"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="@ceil(@Evaluate(@Value(count) / 10000))"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COPYATT" PARM_VALUE="number"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="34"
@@ -954,47 +1601,47 @@
 #!     <XFORM_ATTR ATTR_NAME="number" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
-#!     <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller_2"/>
 #!     <XFORM_PARM PARM_NAME="ERROR_ATTR" PARM_VALUE="_error"/>
-#!     <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="_response_body"/>
-#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
-#!     <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="_headers"/>
-#!     <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="auto-detect"/>
-#!     <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;request&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
-#!     <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="UPLOAD_CONTENT_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FILE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
+#!     <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FILE_PATH_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
+#!     <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="_response_body"/>
+#!     <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
+#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="auto-detect"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;request&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ADVANCED_REQUEST_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="_headers"/>
+#!     <XFORM_PARM PARM_NAME="FILE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
+#!     <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller_2"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="39"
@@ -1016,16 +1663,16 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; request SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;$(SourceDataset_OData)?&lt;dollar&gt;format=json&lt;amp&gt;&lt;dollar&gt;skip=&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;number&lt;closeparen&gt;*10000&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;number&lt;closeparen&gt; = 0&apos;$(SourceDataset_OData)?&lt;dollar&gt;format=json&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="44"
@@ -1070,17 +1717,17 @@
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="number" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="EXTRACT_ATTR" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="JSON_QUERY" PARM_VALUE="json&lt;openbracket&gt;&lt;quote&gt;value&lt;quote&gt;&lt;closebracket&gt;&lt;openbracket&gt;*&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FLATTEN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFragmenter"/>
+#!     <XFORM_PARM PARM_NAME="JSON_ATTR" PARM_VALUE="_response_body"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="ID Woningkenmerken WijkenEnBuurten Gemeentenaam_1 SoortRegio_2 Codering_3 GemiddeldAardgasverbruik_4 GemiddeldElektriciteitsverbruik_5 Stadsverwarming_6 IndelingswijzigingWijkenEnBuurten_7"/>
+#!     <XFORM_PARM PARM_NAME="EXTRACT_ATTR" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="EXPLODE_FORMAT" PARM_VALUE="JSON"/>
 #!     <XFORM_PARM PARM_NAME="PREF_STRING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="ID Woningkenmerken WijkenEnBuurten Gemeentenaam_1 SoortRegio_2 Codering_3 GemiddeldAardgasverbruik_4 GemiddeldElektriciteitsverbruik_5 Stadsverwarming_6 IndelingswijzigingWijkenEnBuurten_7"/>
-#!     <XFORM_PARM PARM_NAME="FLATTEN_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="JSON_ATTR" PARM_VALUE="_response_body"/>
+#!     <XFORM_PARM PARM_NAME="JSON_QUERY" PARM_VALUE="json&lt;openbracket&gt;&lt;quote&gt;value&lt;quote&gt;&lt;closebracket&gt;&lt;openbracket&gt;*&lt;closebracket&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="47"
@@ -1105,23 +1752,23 @@
 #!     <XFORM_ATTR ATTR_NAME="GemiddeldElektriciteitsverbruik_kWh" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Stadsverwarming_perc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="IndelingswijzigingWijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="request request  REMOVE _creation_instance _creation_instance  REMOVE _headers&lt;opencurly&gt;&lt;closecurly&gt;.name _headers&lt;opencurly&gt;&lt;closecurly&gt;.name  REMOVE _headers&lt;opencurly&gt;&lt;closecurly&gt;.value _headers&lt;opencurly&gt;&lt;closecurly&gt;.value  REMOVE count count  REMOVE _http_status_code _http_status_code  REMOVE number number  REMOVE _response_body _response_body  REMOVE json_type json_type  REMOVE json_index json_index  REMOVE ID ID  NO_OP Woningkenmerken Woningkenmerken  NO_OP WijkenEnBuurten WijkenEnBuurten  NO_OP Gemeentenaam_1 Gemeentenaam  RENAME_SET_VALUE SoortRegio_2 SoortRegio  RENAME_SET_VALUE Codering_3 Codering  RENAME_SET_VALUE GemiddeldAardgasverbruik_4 GemiddeldAardgasverbruik_m3  RENAME_SET_VALUE GemiddeldElektriciteitsverbruik_5 GemiddeldElektriciteitsverbruik_kWh  RENAME_SET_VALUE Stadsverwarming_6 Stadsverwarming_perc  RENAME_SET_VALUE IndelingswijzigingWijkenEnBuurten_7 IndelingswijzigingWijkenEnBuurten  RENAME_SET_VALUE"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="54"
 #!   TYPE="AttributeValueMapper"
 #!   VERSION="6"
-#!   POSITION="4917 -1828.62"
-#!   BOUNDING_RECT="4917 -1828.62 494.243 71"
+#!   POSITION="4917 -1815.01"
+#!   BOUNDING_RECT="4917 -1815.01 494.243 71"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1140,28 +1787,28 @@
 #!     <XFORM_ATTR ATTR_NAME="Stadsverwarming_perc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="IndelingswijzigingWijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Woningkenmerken_label" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="a,Totaal&lt;space&gt;woningen,b,Appartement,c,Tussenwoning,d,Hoekwoning,e,Twee-onder-&lt;u00e9&gt;&lt;u00e9&gt;n-kap&lt;space&gt;woning,f,Vrijstaande&lt;space&gt;woning,g,Eigen&lt;space&gt;woning,h,Huurwoning"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeValueMapper"/>
 #!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="Woningkenmerken_label"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VALUE_MAP_TABLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="a,Totaal&lt;space&gt;woningen,b,Appartement,c,Tussenwoning,d,Hoekwoning,e,Twee-onder-&lt;u00e9&gt;&lt;u00e9&gt;n-kap&lt;space&gt;woning,f,Vrijstaande&lt;space&gt;woning,g,Eigen&lt;space&gt;woning,h,Huurwoning"/>
 #!     <XFORM_PARM PARM_NAME="SRC" PARM_VALUE="Woningkenmerken"/>
 #!     <XFORM_PARM PARM_NAME="DIRECTION" PARM_VALUE="Forward (Source To Destination)"/>
+#!     <XFORM_PARM PARM_NAME="VALUE_MAP_TABLE_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="49"
-#!   TYPE="FeatureMerger"
-#!   VERSION="17"
-#!   POSITION="5685.37 -1067.65"
-#!   BOUNDING_RECT="5685.37 -1067.65 -1 -1"
+#!   IDENTIFIER="35"
+#!   TYPE="InlineQuerier"
+#!   VERSION="1"
+#!   POSITION="5524.25 -1086.15"
+#!   BOUNDING_RECT="5524.25 -1086.15 715.733 71"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17539"
 #! >
-#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <OUTPUT_FEAT NAME="energieleveringen_per_buurt_pzh"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="buurtcode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="buurtnaam" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1179,165 +1826,51 @@
 #!     <XFORM_ATTR ATTR_NAME="Stadsverwarming_perc" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="IndelingswijzigingWijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Woningkenmerken_label" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="buurtcode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="buurtnaam" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gemeentecode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="gemeentenaam" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="wijkcode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Woningkenmerken" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="WijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Gemeentenaam" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="SoortRegio" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Codering" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="GemiddeldAardgasverbruik_m3" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="GemiddeldElektriciteitsverbruik_kWh" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Stadsverwarming_perc" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="IndelingswijzigingWijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Woningkenmerken_label" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
-#!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Woningkenmerken" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="WijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Gemeentenaam" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="SoortRegio" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Codering" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="GemiddeldAardgasverbruik_m3" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="GemiddeldElektriciteitsverbruik_kWh" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Stadsverwarming_perc" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="IndelingswijzigingWijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Woningkenmerken_label" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="4"/>
-#!     <XFORM_ATTR ATTR_NAME="buurtcode" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="buurtnaam" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="gemeentecode" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="gemeentenaam" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="wijkcode" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="Woningkenmerken" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="WijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="Gemeentenaam" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="SoortRegio" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="Codering" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="GemiddeldAardgasverbruik_m3" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="GemiddeldElektriciteitsverbruik_kWh" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="Stadsverwarming_perc" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="IndelingswijzigingWijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="Woningkenmerken_label" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
-#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="InlineQuerier"/>
+#!     <XFORM_PARM PARM_NAME="QUERY_DEF" PARM_VALUE="energieleveringen_per_buurt_pzh,SELECT&lt;space&gt;b.&lt;quote&gt;buurtcode&lt;quote&gt;&lt;comma&gt;&lt;space&gt;b.&lt;quote&gt;buurtnaam&lt;quote&gt;&lt;comma&gt;&lt;space&gt;b.&lt;quote&gt;gemeentecode&lt;quote&gt;&lt;comma&gt;&lt;space&gt;b.&lt;quote&gt;gemeentenaam&lt;quote&gt;&lt;comma&gt;&lt;space&gt;b.&lt;quote&gt;wijkcode&lt;quote&gt;&lt;comma&gt;&lt;space&gt;b.&lt;quote&gt;fme_feature_content&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;e.&lt;quote&gt;ID&lt;quote&gt;&lt;comma&gt;&lt;space&gt;e.&lt;quote&gt;Woningkenmerken&lt;quote&gt;&lt;comma&gt;&lt;space&gt;e.&lt;quote&gt;WijkenEnBuurten&lt;quote&gt;&lt;comma&gt;&lt;space&gt;e.&lt;quote&gt;Gemeentenaam&lt;quote&gt;&lt;comma&gt;&lt;space&gt;e.&lt;quote&gt;SoortRegio&lt;quote&gt;&lt;comma&gt;&lt;space&gt;e.&lt;quote&gt;Codering&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;e.&lt;quote&gt;GemiddeldAardgasverbruik_m3&lt;quote&gt;&lt;comma&gt;&lt;space&gt;e.&lt;quote&gt;GemiddeldElektriciteitsverbruik_kWh&lt;quote&gt;&lt;comma&gt;&lt;space&gt;e.&lt;quote&gt;Stadsverwarming_perc&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;e.&lt;quote&gt;IndelingswijzigingWijkenEnBuurten&lt;quote&gt;&lt;comma&gt;&lt;space&gt;e.&lt;quote&gt;Woningkenmerken_label&lt;quote&gt;&lt;space&gt;&lt;lf&gt;FROM&lt;space&gt;buurten&lt;space&gt;b&lt;lf&gt;INNER&lt;space&gt;JOIN&lt;space&gt;energieleveringen&lt;space&gt;e&lt;lf&gt;ON&lt;space&gt;b.&lt;quote&gt;buurtcode&lt;quote&gt;&lt;space&gt;=&lt;space&gt;e.&lt;quote&gt;Codering&lt;quote&gt;&lt;space&gt;&lt;lf&gt;,FIRST"/>
+#!     <XFORM_PARM PARM_NAME="TABLE_DEF" PARM_VALUE="buurten,buurtcode&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;buurtnaam&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;gemeentecode&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;gemeentenaam&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;wijkcode&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;,energieleveringen,ID&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Woningkenmerken&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;WijkenEnBuurten&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Gemeentenaam&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;SoortRegio&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Codering&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;GemiddeldAardgasverbruik_m3&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;GemiddeldElektriciteitsverbruik_kWh&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Stadsverwarming_perc&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;IndelingswijzigingWijkenEnBuurten&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Woningkenmerken_label&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="QUERY_SCHEMA" PARM_VALUE="energieleveringen_per_buurt_pzh,buurtcode&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;buurtnaam&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;gemeentecode&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;gemeentenaam&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;wijkcode&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;buurten.fme_feature_content&lt;comma&gt;fme_feature_content&lt;comma&gt;ID&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Woningkenmerken&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;WijkenEnBuurten&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Gemeentenaam&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;SoortRegio&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Codering&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;GemiddeldAardgasverbruik_m3&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;GemiddeldElektriciteitsverbruik_kWh&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Stadsverwarming_perc&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;IndelingswijzigingWijkenEnBuurten&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;Woningkenmerken_label&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TABLE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;buurtcode&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;Codering&lt;closeparen&gt; AUTO"/>
-#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="52"
-#!   TYPE="Inspector"
-#!   VERSION="5"
-#!   POSITION="6239.37 -1086.15"
-#!   BOUNDING_RECT="6239.37 -1086.15 599.183 71"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17539"
-#! >
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Buurten_in_Zuid-Holland"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="QUERY_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="59"
-#!   TYPE="Inspector"
-#!   VERSION="5"
-#!   POSITION="6272.26 -1487.65"
-#!   BOUNDING_RECT="6272.26 -1487.65 -1 -1"
+#!   TYPE="Reprojector"
+#!   VERSION="4"
+#!   POSITION="6353.85 -1086.15"
+#!   BOUNDING_RECT="6353.85 -1086.15 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17539"
 #! >
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Uitval"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <OUTPUT_FEAT NAME="REPROJECTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="buurtcode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="buurtnaam" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gemeentecode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gemeentenaam" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="wijkcode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Woningkenmerken" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Gemeentenaam" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SoortRegio" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Codering" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GemiddeldAardgasverbruik_m3" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GemiddeldElektriciteitsverbruik_kWh" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Stadsverwarming_perc" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="IndelingswijzigingWijkenEnBuurten" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Woningkenmerken_label" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4326"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="37"
-#!   TYPE="Inspector"
-#!   VERSION="5"
-#!   POSITION="5914.11 -1970.33"
-#!   BOUNDING_RECT="5914.11 -1970.33 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17539"
-#! >
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger__Rejected_"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1375,11 +1908,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="50"
+#!   IDENTIFIER="41"
 #!   SOURCE_NODE="18"
-#!   TARGET_NODE="49"
+#!   TARGET_NODE="35"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 REQUESTOR"
+#!   TARGET_PORT_DESC="fi 0 buurten"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1397,7 +1930,7 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="41"
+#!   IDENTIFIER="51"
 #!   SOURCE_NODE="33"
 #!   TARGET_NODE="39"
 #!   SOURCE_PORT_DESC="fo 0 COPY"
@@ -1452,24 +1985,35 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="56"
-#!   SOURCE_NODE="49"
-#!   TARGET_NODE="52"
-#!   SOURCE_PORT_DESC="fo 0 MERGED"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   IDENTIFIER="49"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="35"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 1 energieleveringen"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="51"
-#!   SOURCE_NODE="54"
-#!   TARGET_NODE="49"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
+#!   IDENTIFIER="61"
+#!   SOURCE_NODE="59"
+#!   TARGET_NODE="36"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="52"
+#!   SOURCE_NODE="59"
+#!   TARGET_NODE="50"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -1486,20 +2030,9 @@
 #! />
 #! <FEAT_LINK
 #!   IDENTIFIER="60"
-#!   SOURCE_NODE="49"
+#!   SOURCE_NODE="35"
 #!   TARGET_NODE="59"
-#!   SOURCE_PORT_DESC="fo 1 UNMERGED_REQUESTOR"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="58"
-#!   SOURCE_NODE="49"
-#!   TARGET_NODE="37"
-#!   SOURCE_PORT_DESC="fo 4 &lt;lt&gt;REJECTED&lt;gt&gt;"
+#!   SOURCE_PORT_DESC="fo 0 energieleveringen_per_buurt_pzh"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -1517,22 +2050,32 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
-GUI IGNORE SourceDataset_WFS_1,WFS_IN_PREFER_POST_WFS_1,WFS_IN_PREFERRED_VERSION_WFS_1,WFS_IN_TIMEOUT_GROUP_WFS_1,WFS_IN_CONNECTION_TIMEOUT_WFS_1,WFS_IN_TRANSFER_TIMEOUT_WFS_1,WFS_IN_MAX_RESULT_FEATURES_WFS_1,WFS_IN_OUTPUT_FORMAT_WFS_1,WFS_IN_FILTER_EXPRESSION_WFS_1,WFS_IN_IGNORE_APPLICATON_SCHEMA_WFS_1,WFS_IN_XSD_DOC_WFS_1,WFS_IN_FME_FEATURE_IDENTIFIER_WFS_1,WFS_IN_GML_FEATURE_ELEMENTS_WFS_1,WFS_IN_GMLSRS_GEOMETRY_PARAMETERS_WFS_1,WFS_IN_SRS_AXIS_ORDER_WFS_1,WFS_IN_SRS_ANGLE_DIRECTION_WFS_1,WFS_IN_ENFORCE_PATH_CONTINUITY_BY_WFS_1,WFS_IN_GML_READER_GROUP_WFS_1,WFS_IN_USE_OLD_READER_WFS_1,WFS_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_WFS_1,WFS_IN_DISABLE_XML_NAMESPACE_PROCESSING_WFS_1,WFS_IN_GML_FEATURE_PROPERTIES_WFS_1,WFS_IN_MAP_EMBEDDED_OBJECTS_AS_WFS_1,WFS_IN_MAP_PREDEFINED_GML_PROPERTIES_WFS_1,WFS_IN_MAP_GEOMETRY_COLUMNS_WFS_1,WFS_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_WFS_1,WFS_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_WFS_1,WFS_IN_GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP_WFS_1,WFS_IN_MAP_COMPLEX_PROPERTIES_AS_WFS_1,WFS_IN_MAX_MULTI_LIST_LEVEL_WFS_1,WFS_IN_XML_FRAGMENTS_AS_DOCUMENTS_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_WFS_1,WFS_IN_EXPOSE_ATTRS_GROUP_WFS_1,WFS_IN_SEARCH_ENVELOPE_MINX_WFS_1,WFS_IN_SEARCH_ENVELOPE_MINY_WFS_1,WFS_IN_SEARCH_ENVELOPE_MAXX_WFS_1,WFS_IN_SEARCH_ENVELOPE_MAXY_WFS_1,WFS_IN_CLIP_TO_ENVELOPE_WFS_1,WFS_IN_BBOX_COORDINATE_SYSTEM_WFS_1,WFS_IN_NETWORK_AUTHENTICATION_WFS_1
+GUI IGNORE SourceDataset_WFS_1,WFS_IN_PREFER_POST_WFS_1,WFS_IN_PREFERRED_VERSION_WFS_1,WFS_IN_TIMEOUT_GROUP_WFS_1,WFS_IN_CONNECTION_TIMEOUT_WFS_1,WFS_IN_TRANSFER_TIMEOUT_WFS_1,WFS_IN_MAX_RESULT_FEATURES_WFS_1,WFS_IN_OUTPUT_FORMAT_WFS_1,WFS_IN_FILTER_EXPRESSION_WFS_1,WFS_IN_IGNORE_APPLICATON_SCHEMA_WFS_1,WFS_IN_XSD_DOC_WFS_1,WFS_IN_FME_FEATURE_IDENTIFIER_WFS_1,WFS_IN_GML_FEATURE_ELEMENTS_WFS_1,WFS_IN_GMLSRS_GEOMETRY_PARAMETERS_WFS_1,WFS_IN_SRS_AXIS_ORDER_WFS_1,WFS_IN_SRS_ANGLE_DIRECTION_WFS_1,WFS_IN_ENFORCE_PATH_CONTINUITY_BY_WFS_1,WFS_IN_GML_READER_GROUP_WFS_1,WFS_IN_USE_OLD_READER_WFS_1,WFS_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_WFS_1,WFS_IN_DISABLE_XML_NAMESPACE_PROCESSING_WFS_1,WFS_IN_GML_FEATURE_PROPERTIES_WFS_1,WFS_IN_MAP_EMBEDDED_OBJECTS_AS_WFS_1,WFS_IN_MAP_PREDEFINED_GML_PROPERTIES_WFS_1,WFS_IN_MAP_GEOMETRY_COLUMNS_WFS_1,WFS_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_WFS_1,WFS_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_WFS_1,WFS_IN_GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP_WFS_1,WFS_IN_MAP_COMPLEX_PROPERTIES_AS_WFS_1,WFS_IN_MAX_MULTI_LIST_LEVEL_WFS_1,WFS_IN_XML_FRAGMENTS_AS_DOCUMENTS_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_WFS_1,WFS_IN_EXPOSE_ATTRS_GROUP_WFS_1,WFS_IN_SEARCH_ENVELOPE_MINX_WFS_1,WFS_IN_SEARCH_ENVELOPE_MINY_WFS_1,WFS_IN_SEARCH_ENVELOPE_MAXX_WFS_1,WFS_IN_SEARCH_ENVELOPE_MAXY_WFS_1,WFS_IN_CLIP_TO_ENVELOPE_WFS_1,WFS_IN_BBOX_COORDINATE_SYSTEM_WFS_1,WFS_IN_NETWORK_AUTHENTICATION_WFS_1,DestDataset_GEOJSON_1,GEOJSON_OUT_WRITER_CHARSET_GEOJSON_1,GEOJSON_OUT_WRITE_BOM_GEOJSON_1,GEOJSON_OUT_STRICT_SPEC_GEOJSON_1,GEOJSON_OUT_PRETTY_PRINT_GEOJSON_1,GEOJSON_OUT_INDENT_SIZE_GEOJSON_1,GEOJSON_OUT_COUNTER_CLOCKWISE_AREAS_GEOJSON_1,GEOJSON_OUT_WGS84_REPROJECTION_GEOJSON_1,GEOJSON_OUT_JSONP_FUNC_NAME_GEOJSON_1,DestDataset_TDE_1,TDE_OUT_DELETE_TABLEAU_LOGFILE_TDE_1
+DEFAULT_MACRO DestDataset_GEOJSON C:\temp\git\ddd_sneak_preview\data\energieverbruik_particuliere_woningen_2017_per_buurt.geojson
+GUI FILENAME DestDataset_GEOJSON GeoJSON_Files(*.json)|*.json|All_Files|* Destination GeoJSON File:
+DEFAULT_MACRO DestDataset_TDE C:\temp\git\ddd_sneak_preview\data
+GUI DIRNAME DestDataset_TDE Destination Tableau TDE Directory:
 DEFAULT_MACRO SourceDataset_WFS https://geodata.nationaalgeoregister.nl/bestuurlijkegrenzen/wfs?
 GUI IGNORE OPTIONAL TEXT SourceDataset_WFS Source WFS (Web Feature Service) URL:
 DEFAULT_MACRO SourceDataset_OData https://opendata.cbs.nl/ODataFeed/odata/84314NED/TypedDataSet
 GUI IGNORE OPTIONAL TEXT SourceDataset_OData Source OData URL:
 DEFAULT_MACRO Provincie Zuid-Holland
 GUI IGNORE OPTIONAL TEXT Provincie provincie:
+INCLUDE [ if {{$(DestDataset_GEOJSON)} == {}} { puts_real {Parameter 'DestDataset_GEOJSON' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_TDE)} == {}} { puts_real {Parameter 'DestDataset_TDE' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE WFS
 READER_KEYWORD WFS_1
 READER_GEN_DIRECTIVES DISABLE_XML_NAMESPACE_PROCESSING,NO,DISABLE_AUTOMATIC_READER_TYPE_SELECTION,NO,MAP_GEOMETRY_COLUMNS,YES,SEARCH_ENVELOPE_MINX,0,XSD_DOC,,WFS_EXPOSE_FORMAT_ATTRS,,MAX_MULTI_LIST_LEVEL,,USE_SEARCH_ENVELOPE,NO,LOCAL_CACHE_EXPIRY,60,EXPOSE_ATTRS_GROUP,,MAP_COMPLEX_PROPERTIES_AS,Nested<space>Attributes,SRS_ANGLE_DIRECTION,,QNAMES_FOR_PROPERTIES_TO_IGNORE,,SEARCH_ENVELOPE_MINY,0,GML_READER_GROUP,,ADD_NAMESPACE_PREFIX_TO_NAMES,,GML_FEATURE_ELEMENTS,<lt>Unused<gt>,FLATTEN_XML_FRAGMENTS_SEPARATOR,,BBOX_COORDINATE_SYSTEM,,GMLSRS_GEOMETRY_PARAMETERS,,MAP_PREDEFINED_GML_PROPERTIES,NO,CONNECTION_TIMEOUT,90,USE_OLD_READER,NO,GML_FEATURE_PROPERTIES,,NETWORK_AUTHENTICATION,AUTH_INFO_GROUP<comma>NO<comma>AUTH_METHOD<comma><lt>lt<gt>Unused<lt>gt<gt><comma>NAMED_CONNECTION<comma><lt>lt<gt>Unused<lt>gt<gt><comma>AUTH_USERNAME<comma><lt>lt<gt>Unused<lt>gt<gt><comma>AUTH_PASSWORD<comma><lt>Unused<gt>,FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE,,FILTER_EXPRESSION,,MAP_EMBEDDED_OBJECTS_AS,ATTRIBUTES,FME_FEATURE_IDENTIFIER,,ARCGIS_CACHE_GROUP,,TABLELIST,<quote>gemeenten<space><space><opencurly>gemeenten<closecurly><quote><space><quote>provincies<space><space><opencurly>provincies<closecurly><quote>,GML_FEATURE_PROPERTIES_ATTRIBUTE_HANDLING_GROUP,,PREFERRED_VERSION,1.1.0,OUTPUT_FORMAT,,SRS_AXIS_ORDER,,TRANSFER_TIMEOUT,90,FLATTEN_XML_FRAGMENTS,NO,ENFORCE_PATH_CONTINUITY_BY,SNAPPING_END_POINTS,_MERGE_SCHEMAS,YES,MAX_RESULT_FEATURES,30000,IGNORE_APPLICATON_SCHEMA,no,SEARCH_ENVELOPE_MAXX,0,PREFER_POST,No,CLIP_TO_ENVELOPE,NO,TIMEOUT_GROUP,NO,WFS_SERVICE_TITLE,Bestuurlijke<space>grenzen<space>WFS,FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE,,XML_FRAGMENTS_AS_DOCUMENTS,YES,SEARCH_ENVELOPE_MAXY,0
 
-WRITER_TYPE NULL
-WRITER_KEYWORD NULL_DEST
-NULL_DEST_DATASET null
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} GEOJSON
+MULTI_WRITER_KEYWORD{0} GEOJSON_1
+MULTI_WRITER_TYPE{1} TDE
+MULTI_WRITER_KEYWORD{1} TDE_1
 #! END_WB_HEADER
 
 #! START_WB_HEADER
@@ -1696,11 +2239,83 @@ WFS_1_ATTRIBUTE_READING "$(WFS_IN_ATTRIBUTE_READING_WFS_1)"
 WFS_1_DATASET "$(SourceDataset_WFS_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
+MACRO WB_KEYWORD "GEOJSON_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER GEOJSON GEOJSON_1
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_GEOJSON_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER GEOJSON GEOJSON_1
+DEFAULT_MACRO DestDataset_GEOJSON_1 $(DestDataset_GEOJSON)
+GUI FILENAME DestDataset_GEOJSON_1 GeoJSON_Files(*.json)|*.json|All_Files|* Destination GeoJSON File:
+DEFAULT_MACRO GEOJSON_OUT_WRITER_CHARSET_GEOJSON_1 UTF-8
+GEOJSON_1_WRITER_CHARSET "$(GEOJSON_OUT_WRITER_CHARSET_GEOJSON_1)"
+GUI LOOKUP_CHOICE GEOJSON_OUT_WRITER_CHARSET_GEOJSON_1 UTF-8,UTF-8%UTF-16,UTF-16%UTF-16BE,UTF-16BE%UTF-16LE,UTF-16LE%UTF-32,UTF-32%UTF-32BE,UTF-32BE%UTF-32LE,UTF-32LE Output Character Set:
+DEFAULT_MACRO GEOJSON_OUT_WRITE_BOM_GEOJSON_1 No
+GEOJSON_1_WRITE_BOM "$(GEOJSON_OUT_WRITE_BOM_GEOJSON_1)"
+GUI LOOKUP_CHOICE GEOJSON_OUT_WRITE_BOM_GEOJSON_1 Yes,Yes%No,No Byte Order Marker:
+DEFAULT_MACRO GEOJSON_OUT_STRICT_SPEC_GEOJSON_1 Yes
+GEOJSON_1_STRICT_SPEC "$(GEOJSON_OUT_STRICT_SPEC_GEOJSON_1)"
+GUI LOOKUP_CHOICE GEOJSON_OUT_STRICT_SPEC_GEOJSON_1 Yes,Yes%No,No Fully Conform to the GeoJSON Grammar:
+DEFAULT_MACRO GEOJSON_OUT_PRETTY_PRINT_GEOJSON_1 YES
+GEOJSON_1_PRETTY_PRINT "$(GEOJSON_OUT_PRETTY_PRINT_GEOJSON_1)"
+GUI ACTIVECHOICE_LOOKUP GEOJSON_OUT_PRETTY_PRINT_GEOJSON_1 Pretty<space>Print,YES%Linear,NO,GEOJSON_OUT_INDENT_SIZE_GEOJSON_1 Formatting Type:
+DEFAULT_MACRO GEOJSON_OUT_INDENT_SIZE_GEOJSON_1 0
+GEOJSON_1_INDENT_SIZE "$(GEOJSON_OUT_INDENT_SIZE_GEOJSON_1)"
+GUI LOOKUP_CHOICE GEOJSON_OUT_INDENT_SIZE_GEOJSON_1 Tabs,0%1<space>space,1%2<space>spaces,2%3<space>spaces,3%4<space>spaces,4%5<space>spaces,5%6<space>spaces,6%7<space>spaces,7%8<space>spaces,8 Indent Size:
+DEFAULT_MACRO GEOJSON_OUT_COUNTER_CLOCKWISE_AREAS_GEOJSON_1 Yes
+GEOJSON_1_COUNTER_CLOCKWISE_AREAS "$(GEOJSON_OUT_COUNTER_CLOCKWISE_AREAS_GEOJSON_1)"
+GUI LOOKUP_CHOICE GEOJSON_OUT_COUNTER_CLOCKWISE_AREAS_GEOJSON_1 Yes,Yes%No,No Convert Areas to Counterclockwise:
+DEFAULT_MACRO GEOJSON_OUT_WGS84_REPROJECTION_GEOJSON_1 Yes
+GEOJSON_1_WGS84_REPROJECTION "$(GEOJSON_OUT_WGS84_REPROJECTION_GEOJSON_1)"
+GUI LOOKUP_CHOICE GEOJSON_OUT_WGS84_REPROJECTION_GEOJSON_1 Yes,Yes%No,No Reproject to WGS84:
+DEFAULT_MACRO GEOJSON_OUT_JSONP_FUNC_NAME_GEOJSON_1 
+GEOJSON_1_JSONP_FUNC_NAME "$(GEOJSON_OUT_JSONP_FUNC_NAME_GEOJSON_1)"
+GUI OPTIONAL TEXT GEOJSON_OUT_JSONP_FUNC_NAME_GEOJSON_1 JSONP Function Name:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO GEOJSON_OUT_DESTINATION_DATASETTYPE_VALIDATION_GEOJSON_1 Yes
+GEOJSON_1_DESTINATION_DATASETTYPE_VALIDATION "$(GEOJSON_OUT_DESTINATION_DATASETTYPE_VALIDATION_GEOJSON_1)"
+GEOJSON_1_DATASET "$(DestDataset_GEOJSON_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "TDE_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER TDE TDE_1
+# First get the dataset for the database. For Tableau TDE, it's the TDE file.
+# For now we'll use whatever they had when they generated this mapping file,
+# and not reprompt
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_TDE_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER TDE TDE_1
+DEFAULT_MACRO DestDataset_TDE_1 $(DestDataset_TDE)
+GUI DIRNAME DestDataset_TDE_1 Destination Tableau TDE Directory:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO TDE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TDE_1 Yes
+TDE_1_DESTINATION_DATASETTYPE_VALIDATION "$(TDE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TDE_1)"
+DEFAULT_MACRO TDE_OUT_DELETE_TABLEAU_LOGFILE_TDE_1 Yes
+TDE_1_DELETE_TABLEAU_LOGFILE "$(TDE_OUT_DELETE_TABLEAU_LOGFILE_TDE_1)"
+GUI CHOICE TDE_OUT_DELETE_TABLEAU_LOGFILE_TDE_1 Yes%No Delete Tableau Logfile:
+DEFAULT_MACRO TDE_OUT_TDE_WKT_GEOMETRY_SUPPORT_TDE_1 Yes
+TDE_1_TDE_WKT_GEOMETRY_SUPPORT "$(TDE_OUT_TDE_WKT_GEOMETRY_SUPPORT_TDE_1)"
+TDE_1_DATASET "$(DestDataset_TDE_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
 #! END_WB_HEADER
 
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)Voorbeeld_CBS.log"
+LOG_FILENAME "$(FME_MF_DIR)voorbeeld_cbs.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1711,6 +2326,8 @@ FME_STROKE_MAX_DEVIATION 0
 MAPPING_FILE_ID Voorbeeld<space>CBS
 LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_WFS_1 WFS_1
+DEFAULT_MACRO DATASET_KEYWORD_GEOJSON_1 GEOJSON_1
+DEFAULT_MACRO DATASET_KEYWORD_TDE_1 TDE_1
 # -------------------------------------------------------------------------
 
 WFS_1_READER_META_ATTRIBUTES fme_feature_type
@@ -1721,14 +2338,8 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME Voorbeeld_CBS
+MACRO WORKSPACE_NAME voorbeeld_cbs
 MACRO FME_VIEWER_APP fmedatainspector
-# -------------------------------------------------------------------------
-
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 # -------------------------------------------------------------------------
 WFS_1_DEF provincies   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_parent_property          xml_buffer   gml_id                       xml_buffer   gid                          xml_int32   gid.xsi_nil                  xml_boolean   provincienaam                xml_buffer   provincienaam.xsi_nil        xml_boolean   geom                         xml_geometry
 # -------------------------------------------------------------------------
@@ -1822,72 +2433,29 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_2_34a6198f_4c99_472f_9f2e_d18b7a5190648_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_2_2ad70adc_f91c_4353_92f2_e47aa8180c6b12_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE FeatureReader_cbs_buurten_2017    OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,gemeentenaam,wijkcode,buurtnaam,buurtcode,gemeentecode,fme_pcre_match,"^fme_$(AttributeKeeper_2_34a6198f_4c99_472f_9f2e_d18b7a5190648_LIST_EXP)")
-
-# -------------------------------------------------------------------------
-
-INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
-
-FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger    INPUT REFERENCER FEATURE_TYPE AttributeKeeper_2_OUTPUT    INPUT REFERENCEE FEATURE_TYPE AttributeValueMapper_OUTPUT    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>buurtcode<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Codering<closeparen>,FeatureMerger) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_UNMERGED_REQUESTOR    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_<REJECTED>
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE FeatureReader_cbs_buurten_2017    OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,gemeentenaam,wijkcode,buurtnaam,buurtcode,gemeentecode,fme_pcre_match,"^fme_$(AttributeKeeper_2_2ad70adc_f91c_4353_92f2_e47aa8180c6b12_LIST_EXP)")
 
 # -------------------------------------------------------------------------
-
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-FACTORY_DEF * InspectorFactory    FACTORY_NAME FeatureMerger__Rejected__Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureMerger_<REJECTED>    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX FeatureMerger__Rejected_    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-
-FACTORY_DEF * RecorderFactory    FACTORY_NAME FeatureMerger__Rejected__Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA buurtcode,varchar<openparen>255<closeparen>,buurtnaam,varchar<openparen>255<closeparen>,gemeentecode,varchar<openparen>255<closeparen>,gemeentenaam,varchar<openparen>255<closeparen>,wijkcode,varchar<openparen>255<closeparen>,ID,varchar<openparen>255<closeparen>,Woningkenmerken,varchar<openparen>255<closeparen>,WijkenEnBuurten,varchar<openparen>255<closeparen>,Gemeentenaam,varchar<openparen>255<closeparen>,SoortRegio,varchar<openparen>255<closeparen>,Codering,varchar<openparen>255<closeparen>,GemiddeldAardgasverbruik_m3,varchar<openparen>255<closeparen>,GemiddeldElektriciteitsverbruik_kWh,varchar<openparen>255<closeparen>,Stadsverwarming_perc,varchar<openparen>255<closeparen>,IndelingswijzigingWijkenEnBuurten,varchar<openparen>255<closeparen>,Woningkenmerken_label,varchar<openparen>255<closeparen>,fme_rejection_code,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-
+FACTORY_DEF * InlineQueryFactory FACTORY_NAME InlineQuerier TABLE_DEF buurten buurtcode<comma>varchar<openparen>200<closeparen><comma>buurtnaam<comma>varchar<openparen>200<closeparen><comma>gemeentecode<comma>varchar<openparen>200<closeparen><comma>gemeentenaam<comma>varchar<openparen>200<closeparen><comma>wijkcode<comma>varchar<openparen>200<closeparen> TABLE_DEF energieleveringen ID<comma>varchar<openparen>200<closeparen><comma>Woningkenmerken<comma>varchar<openparen>200<closeparen><comma>WijkenEnBuurten<comma>varchar<openparen>200<closeparen><comma>Gemeentenaam<comma>varchar<openparen>200<closeparen><comma>SoortRegio<comma>varchar<openparen>200<closeparen><comma>Codering<comma>varchar<openparen>200<closeparen><comma>GemiddeldAardgasverbruik_m3<comma>varchar<openparen>200<closeparen><comma>GemiddeldElektriciteitsverbruik_kWh<comma>varchar<openparen>200<closeparen><comma>Stadsverwarming_perc<comma>varchar<openparen>200<closeparen><comma>IndelingswijzigingWijkenEnBuurten<comma>varchar<openparen>200<closeparen><comma>Woningkenmerken_label<comma>varchar<openparen>200<closeparen> QUERY_DEF energieleveringen_per_buurt_pzh SQL_ENCODED SELECT<space>b.<quote>buurtcode<quote><comma><space>b.<quote>buurtnaam<quote><comma><space>b.<quote>gemeentecode<quote><comma><space>b.<quote>gemeentenaam<quote><comma><space>b.<quote>wijkcode<quote><comma><space>b.<quote>fme_feature_content<quote><comma><lf>e.<quote>ID<quote><comma><space>e.<quote>Woningkenmerken<quote><comma><space>e.<quote>WijkenEnBuurten<quote><comma><space>e.<quote>Gemeentenaam<quote><comma><space>e.<quote>SoortRegio<quote><comma><space>e.<quote>Codering<quote><comma><space><lf>e.<quote>GemiddeldAardgasverbruik_m3<quote><comma><space>e.<quote>GemiddeldElektriciteitsverbruik_kWh<quote><comma><space>e.<quote>Stadsverwarming_perc<quote><comma><space><lf>e.<quote>IndelingswijzigingWijkenEnBuurten<quote><comma><space>e.<quote>Woningkenmerken_label<quote><space><lf>FROM<space>buurten<space>b<lf>INNER<space>JOIN<space>energieleveringen<space>e<lf>ON<space>b.<quote>buurtcode<quote><space>=<space>e.<quote>Codering<quote><space><lf> GEOMETRY_SELECTION FIRST INPUT buurten FEATURE_TYPE AttributeKeeper_2_OUTPUT INPUT energieleveringen FEATURE_TYPE AttributeValueMapper_OUTPUT OUTPUT energieleveringen_per_buurt_pzh FEATURE_TYPE InlineQuerier_energieleveringen_per_buurt_pzh
 # -------------------------------------------------------------------------
 
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-FACTORY_DEF * InspectorFactory    FACTORY_NAME Uitval_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureMerger_UNMERGED_REQUESTOR    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX Uitval    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
+# Wipe out the source setting if it was untouched from the default setting
 
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
+DEFAULT_MACRO Reprojector_SOURCE "Read from feature"
+INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE InlineQuerier_energieleveringen_per_buurt_pzh    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),"EPSG:4326",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING")
 
-FACTORY_DEF * RecorderFactory    FACTORY_NAME Uitval_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA buurtcode,varchar<openparen>255<closeparen>,buurtnaam,varchar<openparen>255<closeparen>,gemeentecode,varchar<openparen>255<closeparen>,gemeentenaam,varchar<openparen>255<closeparen>,wijkcode,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Reprojector REPROJECTED Splitter"   INPUT FEATURE_TYPE Reprojector_REPROJECTED   OUTPUT FEATURE_TYPE Reprojector_REPROJECTED_0_UoNQxzZuMrM=   OUTPUT FEATURE_TYPE Reprojector_REPROJECTED_1_JViUuEy+wYY=
 # -------------------------------------------------------------------------
 
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-FACTORY_DEF * InspectorFactory    FACTORY_NAME Buurten_in_Zuid-Holland_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureMerger_MERGED    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX Buurten_in_Zuid-Holland    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-
-FACTORY_DEF * RecorderFactory    FACTORY_NAME Buurten_in_Zuid-Holland_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA buurtcode,varchar<openparen>255<closeparen>,buurtnaam,varchar<openparen>255<closeparen>,gemeentecode,varchar<openparen>255<closeparen>,gemeentenaam,varchar<openparen>255<closeparen>,wijkcode,varchar<openparen>255<closeparen>,ID,varchar<openparen>255<closeparen>,Woningkenmerken,varchar<openparen>255<closeparen>,WijkenEnBuurten,varchar<openparen>255<closeparen>,Gemeentenaam,varchar<openparen>255<closeparen>,SoortRegio,varchar<openparen>255<closeparen>,Codering,varchar<openparen>255<closeparen>,GemiddeldAardgasverbruik_m3,varchar<openparen>255<closeparen>,GemiddeldElektriciteitsverbruik_kWh,varchar<openparen>255<closeparen>,Stadsverwarming_perc,varchar<openparen>255<closeparen>,IndelingswijzigingWijkenEnBuurten,varchar<openparen>255<closeparen>,Woningkenmerken_label,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Reprojector_REPROJECTED_1_JViUuEy+wYY= TO TDE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>energieverbruik<closeparen> GEOMETRY    ROUTE FME_GENERIC Reprojector_REPROJECTED_0_UoNQxzZuMrM= TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>energieverbruik<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-
-FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
-FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
+GEOJSON_1_DEF energieverbruik   buurtcode                    string   buurtnaam                    string   gemeentecode                 string   gemeentenaam                 string   wijkcode                     string   ID                           string   Woningkenmerken              string   WijkenEnBuurten              string   Gemeentenaam                 string   SoortRegio                   string   Codering                     string   GemiddeldAardgasverbruik_m3  string   GemiddeldElektriciteitsverbruik_kWh string   Stadsverwarming_perc         string   IndelingswijzigingWijkenEnBuurten string   Woningkenmerken_label        string
+# -------------------------------------------------------------------------
+TDE_1_DEF energieverbruik   fme_table_handling           CREATE_IF_MISSING   tde_table_collation          0   tde_type                     <NO_GEOMETRY>   geometry_col_name            geometry   write_geometry               YES   buurtcode                    charstring   buurtnaam                    charstring   gemeentecode                 charstring   gemeentenaam                 charstring   wijkcode                     charstring   ID                           charstring   Woningkenmerken              charstring   WijkenEnBuurten              charstring   Gemeentenaam                 charstring   SoortRegio                   charstring   Codering                     charstring   GemiddeldAardgasverbruik_m3  charstring   GemiddeldElektriciteitsverbruik_kWh charstring   Stadsverwarming_perc         charstring   IndelingswijzigingWijkenEnBuurten charstring   Woningkenmerken_label        charstring
