@@ -9,7 +9,8 @@ Url naar openbare data folder:
 
 https://geoservices.zuid-holland.nl/arcgis/rest/services/
 
-## Online turorials:
+
+## Online tutorials:
 
 Inlezen WFS & WMS in ArcGIS:
 
@@ -37,6 +38,9 @@ https://geoservices.zuid-holland.nl/arcgis/services/Milieu/Milieu_luchtkwaliteit
 
 ## Licentie:
 
+Alle datasets vindbaar op Nationaalgeoregister.nl vallen onder de .. licentie. 
+
+http://nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/search?facet.q=orgName%2FProvincie%2520Zuid-Holland&isChild='false'&resultType=details&fast=index&_content_type=json&from=1&to=20&sortBy=relevance
 
 ## Issues:
 
