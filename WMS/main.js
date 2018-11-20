@@ -20,565 +20,187 @@ require([
         view.zoom = 10; 
         // WMS Layers
         var cultuurPZH = new WMSLayer({
-            title: "Cultuurhistorie Beeldbepalend Erfgoed",
-            url: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?",
+            title: "Zonnewijzer",
+            url: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?",
             sublayers: [
                 {
-                    title: "Historische orientatiepunten.",
-                    name: "Historische orientatiepunten.",
-                    featureInfoUrl: "http://geo.zuid-holland.nl/data/chs/tekst/BBE/Beeldbepalend%20Erfgoed%20obve.html",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Historische orientatiepunten." // url to the legend
-                },
-                {
-                    title: "Sociale woningbouw onder architectuur.",
-                    name: "Sociale woningbouw onder architectuur.",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Sociale woningbouw onder architectuur." // url to the legend
-                },
-                {
-                    title: "Beeldbepalend erfgoed op basis van enquete",
-                    name: "Beeldbepalend erfgoed op basis van enquete",
+                    title: "Grote daken [meer dan 180 panelen]",
+                    name: "Grote daken [meer dan 180 panelen]",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Beeldbepalend erfgoed op basis van enquete",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Grote daken [meer dan 180 panelen]",
                     visible: false
                 },
                 {
-                    title: "Beeldbepalend erfgoed op basis van Canon Zuid-Holland",
-                    name: "Beeldbepalend erfgoed op basis van Canon Zuid-Holland",
+                    title: "Provincie Zuid-Holland - Totale potentiele opbrengst woningen grote daken en voorkeurslocaties",
+                    name: "Provincie Zuid-Holland - Totale potentiele opbrengst woningen grote daken en voorkeurslocaties",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Beeldbepalend erfgoed op basis van Canon Zuid-Holland",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Provincie Zuid-Holland - Totale potentiele opbrengst woningen grote daken en voorkeurslocaties",
                     visible: false
                 },
                 {
-                    title: "Sociale woningbouw onder architectuur",
-                    name: "Sociale woningbouw onder architectuur",
+                    title: "Gemeente - Gerealiseerde productie SDE projecten [MWh/jaar]",
+                    name: "Gemeente - Gerealiseerde productie SDE projecten [MWh/jaar]",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Sociale woningbouw onder architectuur",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Gemeente - Gerealiseerde productie SDE projecten [MWh/jaar]",
                     visible: false
                 },
                 {
-                    title: "Kerken gebouwd tot 1500",
-                    name: "Kerken gebouwd tot 1500",
+                    title: "Gemeente - Gerealiseerde productie kleinverbruikers [MWh/jaar]",
+                    name: "Gemeente - Gerealiseerde productie kleinverbruikers [MWh/jaar]",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Kerken gebouwd tot 1500",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Gemeente - Gerealiseerde productie kleinverbruikers [MWh/jaar]",
                     visible: false
                 },
                 {
-                    title: "Landhuizen gebouwd tot 1500",
-                    name: "Landhuizen gebouwd tot 1500",
+                    title: "Buurt - Potentiele opbrengst/ha [MWh/jaar] - woningen",
+                    name: "Buurt - Potentiele opbrengst/ha [MWh/jaar] - woningen",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Landhuizen gebouwd tot 1500",
-                    visible: false
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Buurt - Potentiele opbrengst/ha [MWh/jaar] - woningen",
+                    visible: true
                 },
                 {
-                    title: "Poorten gebouwd tot 1500",
-                    name: "Poorten gebouwd tot 1500",
+                    title: "Buurt - Potentiele opbrengst/ha [MWh/jaar]  - grote daken [meer dan 180 panelen]",
+                    name: "Buurt - Potentiele opbrengst/ha [MWh/jaar]  - grote daken [meer dan 180 panelen]",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Poorten gebouwd tot 1500",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Buurt - Potentiele opbrengst/ha [MWh/jaar]  - grote daken [meer dan 180 panelen]",
                     visible: false
                 },
                 {
-                    title: "Stadhuizen gebouwd tot 1500",
-                    name: "Stadhuizen gebouwd tot 1500",
+                    title: "Gemeente - Potentiele opbrengst/ha [MWh/jaar]  - woningen",
+                    name: "Gemeente - Potentiele opbrengst/ha [MWh/jaar]  - woningen",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Stadhuizen gebouwd tot 1500",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Gemeente - Potentiele opbrengst/ha [MWh/jaar]  - woningen",
                     visible: false
                 },
                 {
-                    title: "Vestingtorens gebouwd tot 1500",
-                    name: "Vestingtorens gebouwd tot 1500",
+                    title: "Gemeente - Potentiele opbrengst/ha [MWh/jaar]  - grote daken [meer dan 180 panelen]",
+                    name: "Gemeente - Potentiele opbrengst/ha [MWh/jaar]  - grote daken [meer dan 180 panelen]",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Vestingtorens gebouwd tot 1500",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Gemeente - Potentiele opbrengst/ha [MWh/jaar]  - grote daken [meer dan 180 panelen]",
                     visible: false
                 },
                 {
-                    title: "Windmolens gebouwd tot 1500",
-                    name: "Windmolens gebouwd tot 1500",
+                    title: "Experimenten zonne-energie Provincie Zuid-Holland",
+                    name: "Experimenten zonne-energie Provincie Zuid-Holland",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Windmolens gebouwd tot 1500",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Experimenten zonne-energie Provincie Zuid-Holland",
                     visible: false
                 },
                 {
-                    title: "Zichtcirkels tot 1500",
-                    name: "Zichtcirkels tot 1500",
+                    title: "Voorkeurslocaties - Agrarische bedrijven",
+                    name: "Voorkeurslocaties - Agrarische bedrijven",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Zichtcirkels tot 1500",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Agrarische bedrijven",
                     visible: false
                 },
                 {
-                    title: "Kerken gebouwd tussen 1500 en 1800",
-                    name: "Kerken gebouwd tussen 1500 en 1800",
+                    title: "Voorkeurslocaties - Bouwblok bestemmingsplan",
+                    name: "Voorkeurslocaties - Bouwblok bestemmingsplan",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Kerken gebouwd tussen 1500 en 1800",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Bouwblok bestemmingsplan",
                     visible: false
                 },
                 {
-                    title: "Landhuizen gebouwd tussen 1500 en 1800",
-                    name: "Landhuizen gebouwd tussen 1500 en 1800",
+                    title: "Voorkeurslocaties - Bouwblok geschikt zonneveld",
+                    name: "Voorkeurslocaties - Bouwblok geschikt zonneveld",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Landhuizen gebouwd tussen 1500 en 1800",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Bouwblok geschikt zonneveld",
                     visible: false
                 },
                 {
-                    title: "Poorten gebouwd tussen 1500 en 1800",
-                    name: "Poorten gebouwd tussen 1500 en 1800",
+                    title: "Voorkeurslocaties - Geluidsweringen",
+                    name: "Voorkeurslocaties - Geluidsweringen",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Poorten gebouwd tussen 1500 en 1800",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Geluidsweringen",
                     visible: false
                 },
                 {
-                    title: "Stadhuizen gebouwd tussen 1500 en 1800",
-                    name: "Stadhuizen gebouwd tussen 1500 en 1800",
+                    title: "Voorkeurslocaties - Restruimtes langs infra",
+                    name: "Voorkeurslocaties - Restruimtes langs infra",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Stadhuizen gebouwd tussen 1500 en 1800",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Restruimtes langs infra",
                     visible: false
                 },
                 {
-                    title: "Vestingtoren gebouwd tussen 1500 en 1800",
-                    name: "Vestingtoren gebouwd tussen 1500 en 1800",
+                    title: "Voorkeurslocaties - Parkeerplaatsen",
+                    name: "Voorkeurslocaties - Parkeerplaatsen",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Vestingtoren gebouwd tussen 1500 en 1800",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Parkeerplaatsen",
                     visible: false
                 },
                 {
-                    title: "Vuurtorens gebouwd tussen 1500 en 1800",
-                    name: "Vuurtorens gebouwd tussen 1500 en 1800",
+                    title: "Voorkeurslocaties - Parkeerplaatsen geschikt zonnedak",
+                    name: "Voorkeurslocaties - Parkeerplaatsen geschikt zonnedak",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Vuurtorens gebouwd tussen 1500 en 1800",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Parkeerplaatsen geschikt zonnedak",
                     visible: false
                 },
                 {
-                    title: "Windmolens gebouwd tussen 1500 en 1800",
-                    name: "Windmolens gebouwd tussen 1500 en 1800",
+                    title: "Voorkeurslocaties - Actieve stortplaatsen",
+                    name: "Voorkeurslocaties - Actieve stortplaatsen",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Windmolens gebouwd tussen 1500 en 1800",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Actieve stortplaatsen",
                     visible: false
                 },
                 {
-                    title: "Zichtcirkels tussen 1500 en 1800",
-                    name: "Zichtcirkels tussen 1500 en 1800",
+                    title: "Voorkeurslocaties - Actieve stortplaatsen geschikt zonneveld",
+                    name: "Voorkeurslocaties - Actieve stortplaatsen geschikt zonneveld",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Zichtcirkels tussen 1500 en 1800",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Actieve stortplaatsen geschikt zonneveld",
                     visible: false
                 },
                 {
-                    title: "Bruggen gebouwd tussen 1800 en 1945",
-                    name: "Bruggen gebouwd tussen 1800 en 1945",
+                    title: "Voorkeurslocaties - Voormalige stortplaatsen",
+                    name: "Voorkeurslocaties - Voormalige stortplaatsen",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Bruggen gebouwd tussen 1800 en 1945",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Voormalige stortplaatsen",
                     visible: false
                 },
                 {
-                    title: "Industrieen gebouwd tussen 1800 en 1945",
-                    name: "Industrieen gebouwd tussen 1800 en 1945",
+                    title: "Voorkeurslocaties - Voormalige stortplaatsen geschikt zonneveld",
+                    name: "Voorkeurslocaties - Voormalige stortplaatsen geschikt zonneveld",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Industrieen gebouwd tussen 1800 en 1945",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Voorkeurslocaties - Voormalige stortplaatsen geschikt zonneveld",
                     visible: false
                 },
                 {
-                    title: "Kantoren gebouwd tussen 1800 en 1945",
-                    name: "Kantoren gebouwd tussen 1800 en 1945",
+                    title: "Brongegevens - Rijks- provinciale en spoorwegen",
+                    name: "Brongegevens - Rijks- provinciale en spoorwegen",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Kantoren gebouwd tussen 1800 en 1945",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Brongegevens - Rijks- provinciale en spoorwegen",
                     visible: false
                 },
                 {
-                    title: "Kerken gebouwd tussen 1800 en 1945",
-                    name: "Kerken gebouwd tussen 1800 en 1945",
+                    title: "Brongegevens - Eigendom langs rijks- provinciale en spoorwegen",
+                    name: "Brongegevens - Eigendom langs rijks- provinciale en spoorwegen",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Kerken gebouwd tussen 1800 en 1945",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Brongegevens - Eigendom langs rijks- provinciale en spoorwegen",
                     visible: false
                 },
                 {
-                    title: "Stadhuizen gebouwd tussen 1800 en 1945",
-                    name: "Stadhuizen gebouwd tussen 1800 en 1945",
+                    title: "Brongegevens - BSD [bestaand stads en dorpsgebied]",
+                    name: "Brongegevens - BSD [bestaand stads en dorpsgebied]",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Stadhuizen gebouwd tussen 1800 en 1945",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Brongegevens - BSD [bestaand stads en dorpsgebied]",
                     visible: false
                 },
                 {
-                    title: "Uitkijktorens gebouwd tussen 1800 en 1945",
-                    name: "Uitkijktorens gebouwd tussen 1800 en 1945",
+                    title: "Brongegevens - NatuurnetwerkNederland [belemmering]",
+                    name: "Brongegevens - NatuurnetwerkNederland [belemmering]",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Uitkijktorens gebouwd tussen 1800 en 1945",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Brongegevens - NatuurnetwerkNederland [belemmering]",
                     visible: false
                 },
                 {
-                    title: "Vuurtorens gebouwd tussen 1800 en 1945",
-                    name: "Vuurtorens gebouwd tussen 1800 en 1945",
+                    title: "Provincie Zuid-Holland - Totale gerealiseerde opbrengst SDE projecten en kleinverbruikers [1-1-2017]",
+                    name: "Provincie Zuid-Holland - Totale gerealiseerde opbrengst SDE projecten en kleinverbruikers [1-1-2017]",
                     featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Vuurtorens gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Watertorens gebouwd tussen 1800 en 1945",
-                    name: "Watertorens gebouwd tussen 1800 en 1945",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Watertorens gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Windmolens gebouwd tussen 1800 en 1945",
-                    name: "Windmolens gebouwd tussen 1800 en 1945",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Windmolens gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Zichtcirkels tussen 1800-1945",
-                    name: "Zichtcirkels tussen 1800-1945",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Zichtcirkels tussen 1800-1945",
-                    visible: false
-                },
-                {
-                    title: "Monumentale bebouwing gebouw voor 1500",
-                    name: "Monumentale bebouwing gebouw voor 1500",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Monumentale bebouwing gebouw voor 1500",
-                    visible: false
-                },
-                {
-                    title: "Waterwegen of kanalen of vaarten in 1500",
-                    name: "Waterwegen of kanalen of vaarten in 1500",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Waterwegen of kanalen of vaarten in 1500",
-                    visible: false
-                },
-                {
-                    title: "Bebouw gebied en landschap en water in 1500",
-                    name: "Bebouw gebied en landschap en water in 1500",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Bebouw gebied en landschap en water in 1500",
-                    visible: false
-                },
-                {
-                    title: "Monumentale bebouwing gebouw voor 1850",
-                    name: "Monumentale bebouwing gebouw voor 1850",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Monumentale bebouwing gebouw voor 1850",
-                    visible: false
-                },
-                {
-                    title: "Waterwegen of kanalen of vaarten in 1850",
-                    name: "Waterwegen of kanalen of vaarten in 1850",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Waterwegen of kanalen of vaarten in 1850",
-                    visible: false
-                },
-                {
-                    title: "Bebouw gebied en landschap en water in 1850",
-                    name: "Bebouw gebied en landschap en water in 1850",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Bebouw gebied en landschap en water in 1850",
-                    visible: false
-                },
-                {
-                    title: "Monumentale bebouwing gebouw voor 2000",
-                    name: "Monumentale bebouwing gebouw voor 2000",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Monumentale bebouwing gebouw voor 2000",
-                    visible: false
-                },
-                {
-                    title: "Waterwegen of kanalen of vaarten in 2000",
-                    name: "Waterwegen of kanalen of vaarten in 2000",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Waterwegen of kanalen of vaarten in 2000",
-                    visible: false
-                },
-                {
-                    title: "Bebouw gebied en landschap en water in 2000",
-                    name: "Bebouw gebied en landschap en water in 2000",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Bebouw gebied en landschap en water in 2000",
-                    visible: false
-                },
-                {
-                    title: "Beeldbepalend erfgoed op basis van enquete.",
-                    name: "Beeldbepalend erfgoed op basis van enquete.",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Beeldbepalend erfgoed op basis van enquete.",
-                    visible: false
-                },
-                {
-                    title: "Beeldbepalend erfgoed op basis van Canon Zuid-Holland.",
-                    name: "Beeldbepalend erfgoed op basis van Canon Zuid-Holland.",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Beeldbepalend erfgoed op basis van Canon Zuid-Holland.",
-                    visible: false
-                },
-                {
-                    title: "Sociale woningbouw onder architectuur.",
-                    name: "Sociale woningbouw onder architectuur.",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Sociale woningbouw onder architectuur.",
-                    visible: false
-                },
-                {
-                    title: "Historische orientatiepunten.",
-                    name: "Historische orientatiepunten.",
-                    featureInfoUrl: "",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Beeldbepalend_Erfgoed/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Historische orientatiepunten.",
-                    visible: false
-                },
-            ]
-        });
-        map.layers.add(cultuurPZH);
-
-        var landschapPZH = new WMSLayer({
-            title: "Cultuurhistorie Landschap",
-            url: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?",
-            sublayers: [
-                {
-                    title: "Beeldbepalend erfgoed op basis van enquete",
-                    name: "Beeldbepalend erfgoed op basis van enquete",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Beeldbepalend erfgoed op basis van enquete",
-                    visible: false
-                },
-                {
-                    title: "Beeldbepalend erfgoed op basis van Canon Zuid-Holland",
-                    name: "Beeldbepalend erfgoed op basis van Canon Zuid-Holland",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Beeldbepalend erfgoed op basis van Canon Zuid-Holland",
-                    visible: false
-                },
-                {
-                    title: "Sociale woningbouw onder architectuur",
-                    name: "Sociale woningbouw onder architectuur",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Sociale woningbouw onder architectuur",
-                    visible: false
-                },
-                {
-                    title: "Kerken gebouwd tot 1500",
-                    name: "Kerken gebouwd tot 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Kerken gebouwd tot 1500",
-                    visible: false
-                },
-                {
-                    title: "Landhuizen gebouwd tot 1500",
-                    name: "Landhuizen gebouwd tot 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Landhuizen gebouwd tot 1500",
-                    visible: false
-                },
-                {
-                    title: "Poorten gebouwd tot 1500",
-                    name: "Poorten gebouwd tot 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Poorten gebouwd tot 1500",
-                    visible: false
-                },
-                {
-                    title: "Stadhuizen gebouwd tot 1500",
-                    name: "Stadhuizen gebouwd tot 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Stadhuizen gebouwd tot 1500",
-                    visible: false
-                },
-                {
-                    title: "Vestingtorens gebouwd tot 1500",
-                    name: "Vestingtorens gebouwd tot 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Vestingtorens gebouwd tot 1500",
-                    visible: false
-                },
-                {
-                    title: "Windmolens gebouwd tot 1500",
-                    name: "Windmolens gebouwd tot 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Windmolens gebouwd tot 1500",
-                    visible: false
-                },
-                {
-                    title: "Zichtcirkels tot 1500",
-                    name: "Zichtcirkels tot 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Zichtcirkels tot 1500",
-                    visible: false
-                },
-                {
-                    title: "Kerken gebouwd tussen 1500 en 1800",
-                    name: "Kerken gebouwd tussen 1500 en 1800",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Kerken gebouwd tussen 1500 en 1800",
-                    visible: false
-                },
-                {
-                    title: "Landhuizen gebouwd tussen 1500 en 1800",
-                    name: "Landhuizen gebouwd tussen 1500 en 1800",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Landhuizen gebouwd tussen 1500 en 1800",
-                    visible: false
-                },
-                {
-                    title: "Poorten gebouwd tussen 1500 en 1800",
-                    name: "Poorten gebouwd tussen 1500 en 1800",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Poorten gebouwd tussen 1500 en 1800",
-                    visible: false
-                },
-                {
-                    title: "Stadhuizen gebouwd tussen 1500 en 1800",
-                    name: "Stadhuizen gebouwd tussen 1500 en 1800",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Stadhuizen gebouwd tussen 1500 en 1800",
-                    visible: false
-                },
-                {
-                    title: "Vestingtoren gebouwd tussen 1500 en 1800",
-                    name: "Vestingtoren gebouwd tussen 1500 en 1800",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Vestingtoren gebouwd tussen 1500 en 1800",
-                    visible: false
-                },
-                {
-                    title: "Vuurtorens gebouwd tussen 1500 en 1800",
-                    name: "Vuurtorens gebouwd tussen 1500 en 1800",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Vuurtorens gebouwd tussen 1500 en 1800",
-                    visible: false
-                },
-                {
-                    title: "Windmolens gebouwd tussen 1500 en 1800",
-                    name: "Windmolens gebouwd tussen 1500 en 1800",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Windmolens gebouwd tussen 1500 en 1800",
-                    visible: false
-                },
-                {
-                    title: "Zichtcirkels tussen 1500 en 1800",
-                    name: "Zichtcirkels tussen 1500 en 1800",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Zichtcirkels tussen 1500 en 1800",
-                    visible: false
-                },
-                {
-                    title: "Bruggen gebouwd tussen 1800 en 1945",
-                    name: "Bruggen gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Bruggen gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Industrieen gebouwd tussen 1800 en 1945",
-                    name: "Industrieen gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Industrieen gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Kantoren gebouwd tussen 1800 en 1945",
-                    name: "Kantoren gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Kantoren gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Kerken gebouwd tussen 1800 en 1945",
-                    name: "Kerken gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Kerken gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Stadhuizen gebouwd tussen 1800 en 1945",
-                    name: "Stadhuizen gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Stadhuizen gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Uitkijktorens gebouwd tussen 1800 en 1945",
-                    name: "Uitkijktorens gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Uitkijktorens gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Vuurtorens gebouwd tussen 1800 en 1945",
-                    name: "Vuurtorens gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Vuurtorens gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Watertorens gebouwd tussen 1800 en 1945",
-                    name: "Watertorens gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Watertorens gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Windmolens gebouwd tussen 1800 en 1945",
-                    name: "Windmolens gebouwd tussen 1800 en 1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Windmolens gebouwd tussen 1800 en 1945",
-                    visible: false
-                },
-                {
-                    title: "Zichtcirkels tussen 1800-1945",
-                    name: "Zichtcirkels tussen 1800-1945",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Zichtcirkels tussen 1800-1945",
-                    visible: false
-                },
-                {
-                    title: "Monumentale bebouwing gebouw voor 1500",
-                    name: "Monumentale bebouwing gebouw voor 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Monumentale bebouwing gebouw voor 1500",
-                    visible: false
-                },
-                {
-                    title: "Waterwegen of kanalen of vaarten in 1500",
-                    name: "Waterwegen of kanalen of vaarten in 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Waterwegen of kanalen of vaarten in 1500",
-                    visible: false
-                },
-                {
-                    title: "Bebouw gebied en landschap en water in 1500",
-                    name: "Bebouw gebied en landschap en water in 1500",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Bebouw gebied en landschap en water in 1500",
-                    visible: false
-                },
-                {
-                    title: "Monumentale bebouwing gebouw voor 1850",
-                    name: "Monumentale bebouwing gebouw voor 1850",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Monumentale bebouwing gebouw voor 1850",
-                    visible: false
-                },
-                {
-                    title: "Waterwegen of kanalen of vaarten in 1850",
-                    name: "Waterwegen of kanalen of vaarten in 1850",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Waterwegen of kanalen of vaarten in 1850",
-                    visible: false
-                },
-                {
-                    title: "Bebouw gebied en landschap en water in 1850",
-                    name: "Bebouw gebied en landschap en water in 1850",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Bebouw gebied en landschap en water in 1850",
-                    visible: false
-                },
-                {
-                    title: "Monumentale bebouwing gebouw voor 2000",
-                    name: "Monumentale bebouwing gebouw voor 2000",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Monumentale bebouwing gebouw voor 2000",
-                    visible: false
-                },
-                {
-                    title: "Waterwegen of kanalen of vaarten in 2000",
-                    name: "Waterwegen of kanalen of vaarten in 2000",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Waterwegen of kanalen of vaarten in 2000",
-                    visible: false
-                },
-                {
-                    title: "Bebouw gebied en landschap en water in 2000",
-                    name: "Bebouw gebied en landschap en water in 2000",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Bebouw gebied en landschap en water in 2000",
-                    visible: false
-                },
-                {
-                    title: "Beeldbepalend erfgoed op basis van enquete.",
-                    name: "Beeldbepalend erfgoed op basis van enquete.",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Beeldbepalend erfgoed op basis van enquete.",
-                    visible: false
-                },
-                {
-                    title: "Beeldbepalend erfgoed op basis van Canon Zuid-Holland.",
-                    name: "Beeldbepalend erfgoed op basis van Canon Zuid-Holland.",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Beeldbepalend erfgoed op basis van Canon Zuid-Holland.",
-                    visible: false
-                },
-                {
-                    title: "Sociale woningbouw onder architectuur.",
-                    name: "Sociale woningbouw onder architectuur.",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Sociale woningbouw onder architectuur.",
-                    visible: false
-                },
-                {
-                    title: "Historische orientatiepunten.",
-                    name: "Historische orientatiepunten.",
-                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Cultuur/Cultuurhistorie_Landschap/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Historische orientatiepunten.",
+                    legendUrl: "https://geoservices.zuid-holland.nl/arcgis/services/Ruimte/Zonnewijzer/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Provincie Zuid-Holland - Totale gerealiseerde opbrengst SDE projecten en kleinverbruikers [1-1-2017]",
                     visible: false
                 }
             ]
         });
-
-        // map.layers.add(landschapPZH);
+        map.layers.add(cultuurPZH);
 
         // LAYER LIST WIDGET
         var layerlist = new LayerList({
