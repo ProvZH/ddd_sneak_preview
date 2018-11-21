@@ -22,6 +22,11 @@ Voorbeeldscripts:
 * [Inlezen van CBS gegevens via OData interface in R](../../tree/master/R/voorbeeld_odata_cbs.R)
 * [Inlezen van CBS gegevens via OData interface in FME Desktop](../../tree/master/R/voorbeeld_cbs.fmw)
 
+Voorbeeld datasets:
+* [Energieverbruik particuliere woningen 2017 in gezipt GeoJSON formaat](../../tree/data)
+* [Energieverbruik particuliere woningen 2017 in Tableau formaat](../../tree/master/data)
+* [Maatwerktabel Energiebesparingspotentie van koopwoningen in Excel formaat](https://www.cbs.nl/-/media/_excel/2017/26/energiepotentiekaarten_publicatie2.xlsx)
+
 Licentie:    
 In principe worden gegevens beschikbaar gesteld onder een [CC-BY-SA 4.0]((https://creativecommons.org/licenses/by/4.0/deed.nl)) licentie. Verifieer in de metadata of voor een specifieke dataset afwijkende voorwaarden voor hergebruik gelden.
 
