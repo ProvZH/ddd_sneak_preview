@@ -28,3 +28,6 @@ Zonnewijzer_Potentie_buurt <- st_read(request)
 # Dataset bekijken
 View(Zonnewijzer_Potentie_buurt)
 plot(Zonnewijzer_Potentie_buurt)
+
+# Er gaat iets mis... Ik weet nog niet wat...
+# Het is jammer dat de WFS-services van de PZH nog geen GeoJSON retourneren. Dat zou het een stuk makkelijker maken.
