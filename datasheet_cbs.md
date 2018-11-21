@@ -20,7 +20,7 @@ Voorbeeldscripts:
 * [Inlezen van CBS energieleveringen WFS in R](../../tree/master/R/voorbeeld_wfs_cbs.R)
 * [Inlezen van CBS maatwerktabel in R](../../tree/master/R/voorbeeld_maatwerktabel_cbs.R)
 * [Inlezen van CBS gegevens via OData interface in R](../../tree/master/R/voorbeeld_odata_cbs.R)
-* [Inlezen van CBS gegevens via OData interface in FME Desktop](../../tree/master/R/voorbeeld_cbs.fmw)
+* [Inlezen van CBS gegevens via OData én WFS interface in FME Desktop](../../tree/master/R/voorbeeld_cbs.fmw)
 
 Voorbeeld datasets:
 * [Energieverbruik particuliere woningen 2017 in gezipt GeoJSON formaat](../../tree/data)
