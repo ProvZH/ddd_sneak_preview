@@ -18,6 +18,7 @@ Voor het inlezen van CBS-gegevens in R is het [`cbsodataR`](https://cran.r-proje
 
 Voorbeeldscripts:
 * [Inlezen van CBS energieleveringen WFS in R](../../tree/master/R/voorbeeld_wfs_cbs.R)
+* [Inlezen van CBS maatwerktabel in R](../../tree/master/R/voorbeeld_maatwerktabel_cbs.R)
 * [Inlezen van CBS gegevens via OData interface in R](../../tree/master/R/voorbeeld_odata_cbs.R)
 * [Inlezen van CBS gegevens via OData interface in FME Desktop](../../tree/master/R/voorbeeld_cbs.fmw)
 
